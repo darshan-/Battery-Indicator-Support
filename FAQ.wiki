@@ -1,5 +1,3 @@
-#summary FAQ
-
 = Frequently Asked Questions =
 
 == Can I have just the icon without the notification? / Can I have just the notification without the icon? ==
