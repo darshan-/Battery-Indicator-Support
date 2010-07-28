@@ -57,6 +57,10 @@ example.)
 == Please allow the app to be installed to SD card for Android 2.2+ ==
 
 I hear you.  However, Google is very clear that apps such as Battery
-Indicator *should not* allow this^1^.
+Indicator *should not* allow this^1^.  If I did this, and you moved
+Battery Indicator to your SD card, then whenever you unmounted the
+card from your phone (by plugging your phone into your computer to
+copy files to/from your phone, for example), Battery Indicator would
+be closed and would not be restarted until you did so manually.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
