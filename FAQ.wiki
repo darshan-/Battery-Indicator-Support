@@ -1,7 +1,6 @@
 = Frequently Asked Questions =
 
-== Can I have just the icon without the notification? / Can I have
-just the notification without the icon? ==
+== Can I have just the icon without the notification? / Can I have just the notification without the icon? ==
 
 Unfortunately, that's not possible at this time.  In all current
 versions of Android, the notification icon and the actual notification
@@ -17,8 +16,7 @@ way.
 Unfortunately, that's not possible at this time.  If a future version
 of Android allows it, I will definitely take advantage of it.
 
-== Can you add more color options for the icon? / Can you make the
-icon show when the battery is charging? ==
+== Can you add more color options for the icon? / Can you make the icon show when the battery is charging? ==
 
 The way Android currently implements notifications is that any icons
 you want to put in the status bar _must_ be included in the app.  You
