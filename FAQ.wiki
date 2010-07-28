@@ -1,23 +1,57 @@
 = Frequently Asked Questions =
 
-== Can I have just the icon without the notification? / Can I have just the notification without the icon? ==
+== Can I have just the icon without the notification? / Can I have
+just the notification without the icon? ==
 
-Unfortunately, that's not possible at this time.  In all current versions of Android, the notification icon and the actual notification (in the pull-down menu) are tied together. If you try to set a notification without an icon, the notification doesn't show up, and the only way to get an icon in the status bar is to set a notification.  If a future version of Android allows it, I will definitely add an option to allow people to customize things in this way.
+Unfortunately, that's not possible at this time.  In all current
+versions of Android, the notification icon and the actual notification
+(in the pull-down menu) are tied together. If you try to set a
+notification without an icon, the notification doesn't show up, and
+the only way to get an icon in the status bar is to set a
+notification.  If a future version of Android allows it, I will
+definitely add an option to allow people to customize things in this
+way.
 
 == Can you make your app replace the stock battery icon? ==
 
-Unfortunately, that's not possible at this time.  If a future version of Android allows it, I will definitely take advantage of it.
+Unfortunately, that's not possible at this time.  If a future version
+of Android allows it, I will definitely take advantage of it.
 
-== Can you add more color options for the icon? / Can you make the icon show when the battery is charging? ==
+== Can you add more color options for the icon? / Can you make the
+icon show when the battery is charging? ==
 
-The way Android currently implements notifications is that any icons you want to put in the status bar _must_ be included in the app.  You can generate images on the fly in an Android application, and you can use these images in most parts of your application, but you cannot use generated images in the status bar.
+The way Android currently implements notifications is that any icons
+you want to put in the status bar _must_ be included in the app.  You
+can generate images on the fly in an Android application, and you can
+use these images in most parts of your application, but you cannot use
+generated images in the status bar.
 
-What this means for Battery Indicator is that I can't make the icon as customizable as I would like to.  Since I need to include both high and medium resolution sets of images for every option (grayscale, red, amber, and green), the app is already over half a megabyte in size. While it would be easy to add more icons with different colors and styles, or add a lightning bolt to indicate charging, for example, this quickly increases the size of the package.  (A bigger package takes up storage space on people's phones and -- even worse -- uses up RAM that is generally in short supply.)
+What this means for Battery Indicator is that I can't make the icon as
+customizable as I would like to.  Since I need to include both high
+and medium resolution sets of images for every option (grayscale, red,
+amber, and green), the app is already over half a megabyte in
+size. While it would be easy to add more icons with different colors
+and styles, or add a lightning bolt to indicate charging, for example,
+this quickly increases the size of the package.  (A bigger package
+takes up storage space on people's phones and -- even worse -- uses up
+RAM that is generally in short supply.)
 
-Hopefully a future version of Android will allow developers to use dynamically-generated images in the status bar.  If that happens, then I will be able to make the icon for Battery Indicator much more configurable without having to worry about the package size.
+Hopefully a future version of Android will allow developers to use
+dynamically-generated images in the status bar.  If that happens, then
+I will be able to make the icon for Battery Indicator much more
+configurable without having to worry about the package size.
 
 == Help!  The app won't download! ==
 
-You need to go to Google for support if you're having any problems with purchasing, downloading, and/or installing apps from the Android Market.  They're the ones in control of all of that, so there's not much I can do to help.  (Once you have Battery Indicator installed, of course I'm the person to go to for support with the app itself.)
+You need to go to Google for support if you're having any problems
+with purchasing, downloading, and/or installing apps from the Android
+Market.  They're the ones in control of all of that, so there's not
+much I can do to help.  (Once you have Battery Indicator installed, of
+course I'm the person to go to for support with the app itself.)
 
-I have noticed, though, that sometimes if the Market app gets stuck and won't download or install an app, restarting your phone and trying again can help.  If the problem is with credit card authorization, it might be that you need to update your credit card on file with Google Checkout.  (It may be that your expiration date has changed, for example.)
+I have noticed, though, that sometimes if the Market app gets stuck
+and won't download or install an app, restarting your phone and trying
+again can help.  If the problem is with credit card authorization, it
+might be that you need to update your credit card on file with Google
+Checkout.  (It may be that your expiration date has changed, for
+example.)
