@@ -53,3 +53,10 @@ again can help.  If the problem is with credit card authorization, it
 might be that you need to update your credit card on file with Google
 Checkout.  (It may be that your expiration date has changed, for
 example.)
+
+== Please allow the app to be installed to SD card for Android 2.2+ ==
+
+I here you.  However, Google is very clear that apps such as Battery
+Indicator *should not* allow this^1^.
+
+`[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
