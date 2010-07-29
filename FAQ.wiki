@@ -1,6 +1,7 @@
 = Frequently Asked Questions =
 
-== Can I have just the icon without the notification? / Can I have just the notification without the icon? ==
+== Can I have just the icon without the notification? / ==
+== Can I have just the notification without the icon? ==
 
 Unfortunately, that's not possible at this time.  In all current
 versions of Android, the notification icon and the actual notification
@@ -14,9 +15,11 @@ way.
 == Can you make your app replace the stock battery icon? ==
 
 Unfortunately, that's not possible at this time.  If a future version
-of Android allows it, I will definitely take advantage of it.
+of Android allows it, I will definitely do so.
 
-== Can you add more color options for the icon? / Can you make the icon show when the battery is charging? ==
+== Can you add more color options for the icon? / ==
+== Can you make the icon look different when the battery is charging? / ==
+== Why can't I have my icon turn red above 30% or amber above 50%? ==
 
 The way Android currently implements notifications is that any icons
 you want to put in the status bar _must_ be included in the app.  You
@@ -37,7 +40,10 @@ RAM that is generally in short supply.)
 Hopefully a future version of Android will allow developers to use
 dynamically-generated images in the status bar.  If that happens, then
 I will be able to make the icon for Battery Indicator much more
-configurable without having to worry about the package size.
+configurable without having to worry about the package size. In the
+mean time, I'll continue to do my best to balance usefulness and
+configurability on the one hand and keeping the app very lightweight
+on the other.
 
 == Help!  The app won't download! ==
 
@@ -54,7 +60,7 @@ might be that you need to update your credit card on file with Google
 Checkout.  (It may be that your expiration date has changed, for
 example.)
 
-== Please allow the app to be installed to SD card for Android 2.2+ ==
+== Please allow the app to be installed to SD card for Android 2.2+. ==
 
 I hear you.  However, Google is very clear that apps such as Battery
 Indicator *should not* allow this^1^.  If I did this, and you moved
@@ -62,5 +68,11 @@ Battery Indicator to your SD card, then whenever you unmounted the
 card from your phone (by plugging your phone into your computer to
 copy files to/from your phone, for example), Battery Indicator would
 be closed and would not be restarted until you did so manually.
+
+Even if you're sure that you almost never mount your phone as a USB
+mass storage device and/or that you don't mind this behavior, there's
+no doubt that enabling it would confuse many of my users and this in
+turn would cause a huge headache for me.  Battery Indicator simply
+isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
