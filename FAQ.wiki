@@ -105,5 +105,5 @@ there's nothing I can do about it if that's how Motorola designed
 their device.
 
 All other Android devices, as far as I know, report their charge at 1%
-intervals.  If you have a devices with lower resolution, please let me
+intervals.  If you have a device with lower resolution, please let me
 know, and I'll add it to this list.
