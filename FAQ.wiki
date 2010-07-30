@@ -73,3 +73,35 @@ turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
+
+== How does Battery Indicator work? / How does it know what percentage the battery is at? ==
+
+The Android system has a mechanism where you can register your app to
+be notified when the battery status changes.  So Battery Indicator has
+a background service that is technically always running but is
+essentially always sleeping and using basically no system resources
+(because it doesn't do any polling -- it just sleeps and waits to be
+notified by the OS when something changes), then when the battery
+charge (or plugged-in status) changes, the system wakes it up and
+tells it what the new battery charge (and status) is.  Then it takes
+just a few milliseconds to change its icon to reflect the current
+charge (and status) and goes back to sleep.
+
+If you're technically oriented, the documentation for the core API
+that Battery Indicator uses is here:
+http://developer.android.com/reference/android/os/BatteryManager.html
+and the actual source code to the development version of the app is
+here: http://code.google.com/p/battery-indicator/source/browse/trunk .
+
+== Your app only displays the charge with a 10% resolution.  Please fix this. ==
+
+Battery Indicator displays exactly what the system reports to it.  The
+(original) Motorola DROID and the Samsung Moment are known to only
+report their charge at 10% intervals.  This is dumb but not my fault.
+I've heard from one user that the Motorola i1 actually only reports at
+100%, 65%, and 35%.  That's terrible, but again, there's nothing I can
+do about it if that's how Motorola designed their device.
+
+All other Android devices, as far as I know, report their charge at 1%
+intervals.  If you have a devices with lower resolution, please let me
+know, and I'll add it to this list.
