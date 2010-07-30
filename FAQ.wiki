@@ -96,11 +96,13 @@ here: http://code.google.com/p/battery-indicator/source/browse/trunk .
 == Your app only displays the charge with a 10% resolution.  Please fix this. ==
 
 Battery Indicator displays exactly what the system reports to it.  The
-(original) Motorola DROID and the Samsung Moment are known to only
-report their charge at 10% intervals.  This is dumb but not my fault.
-I've heard from one user that the Motorola i1 actually only reports at
-100%, 65%, and 35%.  That's terrible, but again, there's nothing I can
-do about it if that's how Motorola designed their device.
+(original) Motorola DROID (but none of the newer Verizon Droid models
+by various manufacturers, as far as I know) and the Samsung Moment are
+known to only report their charge at 10% intervals.  This is dumb but
+not my fault.  I've heard from one user that the Motorola i1 actually
+only reports at 100%, 65%, and 35%.  That's terrible, but again,
+there's nothing I can do about it if that's how Motorola designed
+their device.
 
 All other Android devices, as far as I know, report their charge at 1%
 intervals.  If you have a devices with lower resolution, please let me
