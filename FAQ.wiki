@@ -1,5 +1,49 @@
 = Frequently Asked Questions =
 
+== How does Battery Indicator work? / How does it know what percentage the battery is at? ==
+
+The Android system has a mechanism where you can register your app to
+be notified when the battery status changes.  So Battery Indicator has
+a background service that is technically always running but is
+essentially always sleeping and using basically no system resources
+(because it doesn't do any polling -- it just sleeps and waits to be
+notified by the OS when something changes), then when the battery
+charge (or plugged-in status) changes, the system wakes it up and
+tells it what the new battery charge (and status) is.  Then it takes
+just a few milliseconds to change its icon to reflect the current
+charge (and status) and goes back to sleep.
+
+If you're technically oriented, the documentation for the core API
+that Battery Indicator uses is here:
+http://developer.android.com/reference/android/os/BatteryManager.html
+and the actual source code to the development version of the app is
+here: http://code.google.com/p/battery-indicator/source/browse/trunk .
+
+== Will using Battery Indicator affect my battery life? ==
+
+No.  Because Battery Indicator doesn't do any polling, it is virtually
+always asleep, not using any CPU (and very little RAM).  When the
+battery indicates to the system that its charge or state has changed,
+the system then wakes Battery Indicator, which quickly updates itself
+and goes back to sleep.
+
+Because of this, Battery Indicator will have no measurable or
+perceptible effect on battery life.
+
+== Who are you? ==
+
+Well, that's a big and important question that's well beyond the
+scope of this FAQ.  In brief, my legal name is Josiah Barber, although
+I normally go by my nickname, Darshan.  Computers have been a hobby of
+mine for most of my life, especially since 1999, when I got into open
+source software.  Right now I'm studying to become a development
+economist.
+
+I work on Battery Indicator in my free time (mostly over the summer)
+and the donations I get for the Pro version really go a long way
+toward making my life easier and helping me keep focused on my
+schoolwork.
+
 == Can I have just the icon without the notification? / <br> Can I have just the notification without the icon? ==
 
 Unfortunately, that's not possible at this time.  In all current
@@ -73,25 +117,6 @@ turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
-
-== How does Battery Indicator work? / How does it know what percentage the battery is at? ==
-
-The Android system has a mechanism where you can register your app to
-be notified when the battery status changes.  So Battery Indicator has
-a background service that is technically always running but is
-essentially always sleeping and using basically no system resources
-(because it doesn't do any polling -- it just sleeps and waits to be
-notified by the OS when something changes), then when the battery
-charge (or plugged-in status) changes, the system wakes it up and
-tells it what the new battery charge (and status) is.  Then it takes
-just a few milliseconds to change its icon to reflect the current
-charge (and status) and goes back to sleep.
-
-If you're technically oriented, the documentation for the core API
-that Battery Indicator uses is here:
-http://developer.android.com/reference/android/os/BatteryManager.html
-and the actual source code to the development version of the app is
-here: http://code.google.com/p/battery-indicator/source/browse/trunk .
 
 == Your app only displays the charge with a 10% resolution.  Please fix this. ==
 
