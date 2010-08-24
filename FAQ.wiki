@@ -1,5 +1,32 @@
 = Frequently Asked Questions =
 
+== Why does the app need the WAKE_LOCK ("prevent phone from sleeping") permission? ==
+
+This is necessary for the lock screen functionality to work properly.
+It won't be used at all if you don't have the app set to automatically
+disable and reenable the lock screen. If you do have that turned on,
+then the wake lock is released immediately after acquisition, and is
+just a work-around to make sure the the lock screen is reenabled
+properly.
+
+== What's new in the update? ==
+
+v3.0.0
+* Estimated discharge / charge time left. (Optional)
+* Logging of battery state. (Optional)
+* Themes for the main window. (Optional)
+* Manually/automatically dis/reenable the device lock screen. (Optional)
+* Efficiency improvements throughout.
+* Actually _smaller_ despite all the new features.
+* A "soft reset" of the service when you change settings, so the icon doesn't blink.
+* Green down to 20% (previous limit was 30%).
+* It now notices if a fuller battery has been put in, or the phone was charged while off.
+* Trimmed down interface, moving many things to a menu.
+* So many new settings that they've been broken into multiple, easier to use pages.
+* Help pages explaining all of the settings.
+* Option to show the charge as larger text (only in notification tray).
+* Color preview.
+
 == How does Battery Indicator work? / How does it know what percentage the battery is at? ==
 
 The Android system has a mechanism where you can register your app to
