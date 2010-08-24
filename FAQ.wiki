@@ -12,6 +12,7 @@ properly.
 == What's new in the update? ==
 
 v3.0.0
+
 * Estimated discharge / charge time left. (Optional)
 * Logging of battery state. (Optional)
 * Themes for the main window. (Optional)
