@@ -12,21 +12,20 @@ properly.
 == What's new in the update? ==
 
 v3.0.0
-
-* Estimated discharge / charge time left. (Optional)
-* Logging of battery state. (Optional)
-* Themes for the main window. (Optional)
-* Manually/automatically dis/reenable the device lock screen. (Optional)
-* Efficiency improvements throughout.
-* Actually _smaller_ despite all the new features.
-* A "soft reset" of the service when you change settings, so the icon doesn't blink.
-* Green down to 20% (previous limit was 30%).
-* It now notices if a fuller battery has been put in, or the phone was charged while off.
-* Trimmed down interface, moving many things to a menu.
-* So many new settings that they've been broken into multiple, easier to use pages.
-* Help pages explaining all of the settings.
-* Option to show the charge as larger text (only in notification tray).
-* Color preview.
+ * Estimated discharge / charge time left. (Optional)
+ * Logging of battery state. (Optional)
+ * Themes for the main window. (Optional)
+ * Manually/automatically dis/reenable the device lock screen. (Optional)
+ * Efficiency improvements throughout.
+ * Actually _smaller_ despite all the new features.
+ * A "soft reset" of the service when you change settings, so the icon doesn't blink.
+ * Green down to 20% (previous limit was 30%).
+ * It now notices if a fuller battery has been put in, or the phone was charged while off.
+ * Trimmed down interface, moving many things to a menu.
+ * So many new settings that they've been broken into multiple, easier to use pages.
+ * Help pages explaining all of the settings.
+ * Option to show the charge as larger text (only in notification tray).
+ * Color preview.
 
 == How does Battery Indicator work? / How does it know what percentage the battery is at? ==
 
