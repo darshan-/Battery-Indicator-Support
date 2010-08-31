@@ -122,7 +122,7 @@ killer.
 == The indicator disappears from the status bar. ==
 
 You're using some kind of "task killer" app, which is killing Battery
-Indicator.  See the previous question.
+Indicator.  See the previous two questions.
 
 == Can I have just the icon without the notification? / <br> Can I have just the notification without the icon? ==
 
