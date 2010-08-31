@@ -11,7 +11,8 @@ properly.
 
 == What's new in the update? ==
 
-*Free*
+*Free Version*
+
 v3.0.0
  * Easy access to the system's Battery Use screen (requires Android 1.6+).
  * Hi-res icons (requires hi-res device).
@@ -21,7 +22,8 @@ v3.0.0
  * Trimmed down interface, moving many things to a menu.
  * Help page explaining the settings.
 
-*Pro*
+*Pro Version*
+
 v3.0.0
  * Estimated discharge / charge time left. (Optional)
  * Logging of battery state. (Optional)
