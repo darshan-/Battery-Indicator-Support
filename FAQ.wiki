@@ -57,19 +57,70 @@ and goes back to sleep.
 Because of this, Battery Indicator will have no measurable or
 perceptible effect on battery life.
 
-== Who are you? ==
+== Your app only displays the charge with a 10% resolution.  Please fix this. ==
 
-Well, that's a big and important question that's well beyond the
-scope of this FAQ.  In brief, my legal name is Josiah Barber, although
-I normally go by my nickname, Darshan.  Computers have been a hobby of
-mine for most of my life, especially since 1999, when I got into open
-source software.  Right now I'm studying to become a development
-economist.
+Battery Indicator displays exactly what the system reports to it.  The
+(original) *Motorola DROID*, the *Motorola Droid X*, the *Motorola
+Droid 2*, and the *Samsung Moment* are known to only report their
+charge at 10% intervals.  This is dumb but not my fault.  I've heard
+from one user that the *Motorola i1* actually only reports at 100%,
+65%, and 35%.  That's terrible, but again, there's nothing I can do
+about it if that's how Motorola designed their device.  If you have
+one of these crippled devices, and you find it bothersome, I think it
+might be helpful to let your carrier and/or device manufacturer know
+how you feel.  Motorola in particular is building a bad reputation in
+this regard, so it would be good for them to know that people care
+about the issue.
 
-I work on Battery Indicator in my free time (mostly over the summer)
-and the donations I get for the Pro version really go a long way
-toward making my life easier and helping me keep focused on my
-schoolwork.
+All other Android devices, as far as I know, report their charge at 1%
+intervals.  _If you have a device that fails to do so (other than those
+already mentioned in the previous paragraph), please let me know, and
+I'll add it to this list_.
+
+== Battery Indicator is inaccurate or jumps by several percent. ==
+
+If it always jumps by exactly 10%, please see the previous question.
+
+Using Battery Indicator in a supported software environment, you may
+sometimes see the indicator jump by 2 or 3 percent during heavy
+multitasking on older phones.  This is a design feature of Android,
+and it's probably exactly what you want.  Battery Indicator uses very
+little RAM, but it does use _some_.  If you are heavily multitasking
+on an older device (with little RAM), Android will temporarily kill
+background services (including Battery Indicator's) to reclaim
+whatever little bit of RAM it can find.  Once things settle down, it
+will restart the Battery Indicator background service, which will then
+update the icon to the current level, which may be a few percent away.
+
+The other thing that can cause this type of behavior, however, is
+using it in an unsupported software environment:
+
+ * *Third-Party ROMs* - These often work perfectly fine with Battery
+Indicator, but they sometimes fail miserably when it comes time to
+restart background services.  They can also by overzealous about
+killing them off.
+
+ * *"Task Killer" style apps* - These apps cause way more problems
+than they solve and have a tendency totally mess up any apps that
+legitimately run background services, as Battery Indicator does.
+Needless to say, if you're running an app that constantly kills off
+Battery Indicator, there's nothing I can do to make Battery Indicator
+work in such an environment.
+
+== Battery Indicator seems to slow my phone down. ==
+
+The only time I've ever heard of anything like that is when people use
+a "task killer" type of app.  Those apps really wreak havoc on apps
+like mine that use a background service; I recommend uninstalling any
+apps like that that you might have.  Some people have gotten things to
+work by telling the task killer to "ignore" my app, but most haven't
+been able to get things to work until they uninstalled the task
+killer.
+
+== The indicator disappears from the status bar. ==
+
+You're using some kind of "task killer" app, which is killing Battery
+Indicator.  See the previous question.
 
 == Can I have just the icon without the notification? / <br> Can I have just the notification without the icon? ==
 
@@ -145,21 +196,16 @@ isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
 
-== Your app only displays the charge with a 10% resolution.  Please fix this. ==
+== Who are you? ==
 
-Battery Indicator displays exactly what the system reports to it.  The
-(original) *Motorola DROID*, the *Motorola Droid X*, and the *Samsung
-Moment* are known to only report their charge at 10% intervals.  This
-is dumb but not my fault.  I've heard from one user that the *Motorola
-i1* actually only reports at 100%, 65%, and 35%.  That's terrible, but
-again, there's nothing I can do about it if that's how Motorola
-designed their device.  If you have one of these crippled devices, and
-you find it bothersome, I think it might be helpful to let your
-carrier and/or device manufacturer know how you feel.  Motorola in
-particular is building a bad reputation in this regard, so it would be
-good for them to know that people care about the issue.
+Well, that's a big and important question that's well beyond the
+scope of this FAQ.  In brief, my legal name is Josiah Barber, although
+I normally go by my nickname, Darshan.  Computers have been a hobby of
+mine for most of my life, especially since 1999, when I got into open
+source software.  Right now I'm studying to become a development
+economist.
 
-All other Android devices, as far as I know, report their charge at 1%
-intervals.  _If you have a device that fails to do so (other than those
-already mentioned in the previous paragraph), please let me know, and
-I'll add it to this list_.
+I work on Battery Indicator in my free time (mostly over the summer)
+and the donations I get for the Pro version really go a long way
+toward making my life easier and helping me keep focused on my
+schoolwork.
