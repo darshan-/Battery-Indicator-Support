@@ -24,6 +24,11 @@ v3.0.0
 
 *Pro Version*
 
+v3.0.1 (_In development_)
+ * Option to close main window immediately after launching Battery Use screen.
+ * Option to disallow manual lock screen disable.
+ * A handful of minor tweaks and improvements throughout.
+
 v3.0.0
  * Estimated discharge / charge time left. (Optional)
  * Logging of battery state. (Optional)
