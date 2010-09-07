@@ -5,6 +5,7 @@
 *Pro Version*
 
 v3.0.1
+ * Log temperature and voltage, too.
  * Ability to export logs to CSV on SD card.
  * Option to close main window immediately after launching Battery Use screen.
  * Option to disallow manual lock screen disable.
