@@ -1,30 +1,11 @@
 = Frequently Asked Questions =
 
-== Why does the app need the WAKE_LOCK ("prevent phone from sleeping") permission? ==
-
-This is necessary for the lock screen functionality to work properly.
-It won't be used at all if you don't have the app set to automatically
-disable and reenable the lock screen. If you do have that turned on,
-then the wake lock is released immediately after acquisition, and is
-just a work-around to make sure the the lock screen is reenabled
-properly.
-
 == What's new in the update? ==
-
-*Free Version*
-
-v3.0.0
- * Easy access to the system's Battery Use screen (requires Android 1.6+).
- * Hi-res icons (requires hi-res device).
- * A couple of new settings.
- * Efficiency improvements throughout.
- * It now notices if a fuller battery has been put in, or if the phone was charged while off.
- * Trimmed down interface, moving many things to a menu.
- * Help page explaining the settings.
 
 *Pro Version*
 
-v3.0.1 (_In development_)
+v3.0.1
+ * Ability to export logs to CSV on SD card.
  * Option to close main window immediately after launching Battery Use screen.
  * Option to disallow manual lock screen disable.
  * A handful of minor tweaks and improvements throughout.
@@ -44,6 +25,31 @@ v3.0.0
  * Help pages explaining all of the settings.
  * Option to show the charge as larger text (only in notification tray).
  * Color preview.
+
+*Free Version*
+
+v3.0.0
+ * Easy access to the system's Battery Use screen (requires Android 1.6+).
+ * Hi-res icons (requires hi-res device).
+ * A couple of new settings.
+ * Efficiency improvements throughout.
+ * It now notices if a fuller battery has been put in, or if the phone was charged while off.
+ * Trimmed down interface, moving many things to a menu.
+ * Help page explaining the settings.
+
+== Why does the app need the WAKE_LOCK ("prevent phone from sleeping") permission? ==
+
+This is necessary for the lock screen functionality to work properly.
+It won't be used at all if you don't have the app set to automatically
+disable and reenable the lock screen. If you do have that turned on,
+then the wake lock is released immediately after acquisition, and is
+just a work-around to make sure the the lock screen is reenabled
+properly.
+
+== Why does the app need the WRITE_EXTERNAL_STORAGE ("modify/delete SD card contents") permission? ==
+
+This is so that the log viewer can export the logs to CSV on the SD
+card.  Nothing else is ever written to storage.
 
 == How does Battery Indicator work? / How does it know what percentage the battery is at? ==
 
