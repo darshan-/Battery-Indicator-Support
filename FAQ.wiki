@@ -4,6 +4,10 @@
 
 *Pro Version*
 
+v3.0.2 (bugfix) (_in development_)
+ * Auto-disable keyguard properly: User has to manually dismiss the keyguard once, then it will be disabled. This is both more secure (for secure screen locks) and fixes a bug that was present in various forms with all screen locks (including 'None').
+ * Make sure database is always closed properly.
+
 v3.0.1
  * Log temperature and voltage, too.
  * Ability to export logs to CSV on SD card.
