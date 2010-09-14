@@ -6,6 +6,7 @@
 
 v3.0.3 (_In development_)
  * (_Bugfix_) Remove FLAG_ACTIVITY_RESET_TASK_IF_NEEDED from Intent used to launch Battery Use screen. It doesn't appear to be necessary, and it caused a problem on at least one user's phone (which is a Droid X, but don't know if that's relevant).
+ * (_Translation_) Add Chinese translations.
 
 v3.0.2 (_Bugfix_)
  * (_Bugfix_) Auto-disable keyguard properly: User has to manually dismiss the keyguard once, then it will be disabled. This is both more secure (for secure screen locks) and fixes a bug that was present in various forms with all screen locks (including 'None').
@@ -38,6 +39,7 @@ v3.0.0
 
 v3.0.1 (_In development_)
  * (_Bugfix_) Remove FLAG_ACTIVITY_RESET_TASK_IF_NEEDED from Intent used to launch Battery Use screen. It doesn't appear to be necessary, and it caused a problem on at least one user's phone (which is a Droid X, but don't know if that's relevant).
+ * (_Translation_) Add Chinese translations.
 
 v3.0.0
  * Easy access to the system's Battery Use screen (requires Android 1.6+).
