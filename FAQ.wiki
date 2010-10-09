@@ -4,6 +4,9 @@
 
 *Pro Version*
 
+v3.0.5 (_Translations_)
+ * (_Translation_) Fix Traditional Chinese translations.
+
 v3.0.4 (_Translations_)
  * (_Translation_) Add Spanish translations.
  * (_Translation_) Add Traditional Chinese translations.
@@ -41,6 +44,10 @@ v3.0.0
  * Color preview.
 
 *Free Version*
+
+v3.0.2 (_Translations_)
+ * (_Translation_) Add Spanish translations.
+ * (_Translation_) Add Traditional Chinese translations.
 
 v3.0.1
  * (_Bugfix_) Remove FLAG_ACTIVITY_RESET_TASK_IF_NEEDED from Intent used to launch Battery Use screen. It doesn't appear to be necessary, and it caused a problem on at least one user's phone (which is a Droid X, but don't know if that's relevant).
