@@ -4,6 +4,9 @@
 
 *Pro Version*
 
+v3.0.6 (_Translations_)
+ * (_Translation_) Add Italian translations.
+
 v3.0.5 (_Translations_)
  * (_Translation_) Fix Traditional Chinese translations.
 
@@ -44,6 +47,9 @@ v3.0.0
  * Color preview.
 
 *Free Version*
+
+v3.0.3 (_Translations_)
+ * (_Translation_) Add Italian translations.
 
 v3.0.2 (_Translations_)
  * (_Translation_) Add Spanish translations.
