@@ -79,7 +79,7 @@ v3.0.0
 
 That's a very good question, one that I think every developer should
 explicitly address. One thing to keep in mind is that permissions are
-all or nothing and happen at install time: if some optional feature
+all-or-nothing and happen at install time: if some optional feature
 requires a permission in order to work, I need the app to request it
 at install time.  By explaing here exactly why the app requests its
 permissions and how it uses them, and of course by sharing the source
