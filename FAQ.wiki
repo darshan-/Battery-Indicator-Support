@@ -4,6 +4,9 @@
 
 *Pro Version*
 
+v3.1.1 (_Bugfix_)
+ * Someone managed to put a _null_ String in a place I thought one couldn't show up.  Fixed now.
+
 v3.1.0
  * Alarms: With the new alarm feature, the app can now notify you when your battery becomes full, when the charge drops below or rises above a chosen level, if the temperature rises above a chosen level, or if the battery health fails.
  * (_Translation_) Partial French translations.
