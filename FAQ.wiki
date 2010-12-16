@@ -75,19 +75,46 @@ v3.0.0
  * Trimmed down interface, moving many things to a menu.
  * Help page explaining the settings.
 
-== Why does the app need the WAKE_LOCK ("prevent phone from sleeping") permission? ==
+== Why does the app ask for the permissions that it does? ==
+
+That's a very good question, one that I think every developer should
+explicitly address. One thing to keep in mind is that permissions are
+all or nothing and happen at install time: if some optional feature
+requires a permission in order to work, I need the app to request it
+at install time.  By explaing here exactly why the app requests its
+permissions and how it uses them, and of course by sharing the source
+code publicly, I hope to make it an easy decision to grant the
+permissions and install the app.
+
+*WRITE_EXTERNAL_STORAGE ("modify/delete SD card contents")*
+
+This is so that the log viewer can export the logs to CSV on the SD
+card.  Nothing else is ever written to storage, so if you don't use
+the optional log feature, or if you never export the logs to CSV, then
+the app will never touch the SD card.
+
+*WAKE_LOCK ("prevent phone from sleeping")*
 
 This is necessary for the lock screen functionality to work properly.
 It won't be used at all if you don't have the app set to automatically
 disable and reenable the lock screen. If you do have that turned on,
-then the wake lock is released immediately after acquisition, and is
+then the wake lock is released immediately after acquisition. It's
 just a work-around to make sure the the lock screen is reenabled
-properly.
+properly; when I say immediately, I mean _immediately_: http://code.google.com/p/battery-indicator/source/browse/trunk/src/com/darshancomputing/BatteryIndicatorPro/BatteryIndicatorService.java?r=258#213
 
-== Why does the app need the WRITE_EXTERNAL_STORAGE ("modify/delete SD card contents") permission? ==
+*RECEIVE_BOOT_COMPLETED ("automatically start at boot")*
 
-This is so that the log viewer can export the logs to CSV on the SD
-card.  Nothing else is ever written to storage.
+This is so the app can optionally start itself on device startup
+(which most users seem to want.)
+
+*DISABLE_KEYGUARD ("disable keylock")*
+
+This is for the optional lock screen functionality.
+
+*VIBRATE ("control vibrator")*
+
+This if for the optional alarms, so that they can optionally vibrate
+when they are triggered.
 
 == How does Battery Indicator work? / How does it know what percentage the battery is at? ==
 
