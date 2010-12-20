@@ -4,6 +4,9 @@
 
 *Pro Version*
 
+v3.1.2 (_Bugfix_)
+ * This release provides a workaround for a bug in CyanogenMod. If you use CyanogenMod and get a Force Close when editing certain Battery Indicator settings, after upgrading you should go to Other Settings (in this app) and select the setting for *Summaries Use Formatter*.
+
 v3.1.1 (_Bugfix_)
  * Someone managed to put a _null_ String in a place I thought one couldn't show up.  Fixed now.
 
