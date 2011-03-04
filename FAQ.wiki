@@ -80,6 +80,11 @@ v3.0.0
 
 *Free Version*
 
+v4.0.0
+ * Initial support for Honeycomb tablets. There are more tablet optimizations planned, but this is a good start.
+ * Several updated translations.
+ * Unfortunately, I had to remove Cupcake (Android 1.5) support in order to add Honeycomb support. The reasons are complicated, annoying, and out of my control. Cupcake users can still use the previous version.
+
 v3.0.6 (_Translations and Bugfix_)
  * Initial Czech, Hungarian, and Slovak translations.
  * Fix a Force Close bug that might have happened when connecting certain car chargers, and possibly in other situations.
