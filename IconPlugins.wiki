@@ -1,3 +1,0 @@
-= Icon Plugins =
-
-Version 4.1.0 of Battery Indicator Pro will introduce a plugin system allowing much more customization of the status bar icons.  Assuming this wiki is flexible enough, the plugins will be available on this page.

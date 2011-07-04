@@ -4,6 +4,9 @@
 
 *Pro Version*
 
+v4.0.2
+ * Re-enable Cupcake support.
+
 v4.0.1 (_Translations_)
  * Due to a bug in the web translation interface, many languages lost a few important translations.  The bug is now fixed, and the translations are back in this release.
  * Updated French and Italian translations.
@@ -79,6 +82,12 @@ v3.0.0
  * Color preview.
 
 *Free Version*
+
+v4.0.2
+ * Reduce package size by 35%.
+
+v4.0.1
+ * Re-enable Cupcake support.
 
 v4.0.0
  * Initial support for Honeycomb tablets. There are more tablet optimizations planned, but this is a good start.
