@@ -1,4 +1,6 @@
 #summary Frequently Asked Questions
+== Contents ==
+
 <wiki:toc max_depth="2" />
 
 == What's new in the update? ==

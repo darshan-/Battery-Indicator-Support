@@ -1,4 +1,6 @@
 #summary Describes changes in both Pro and Free for each release since v3.0.0
+== Contents ==
+
 <wiki:toc max_depth="2" />
 
 == Pro Version ==
