@@ -1,5 +1,4 @@
 #summary Describes what to do if you have a question or a problem
-#labels Order-999
 = Ask a Question or Report a Problem =
 
 If you have an issue that isn't addressed in the [FAQ], please:
