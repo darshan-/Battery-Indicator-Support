@@ -1,9 +1,7 @@
 #summary Describes changes in both Pro and Free for each release since v3.0.0
-= Changelog =
+<wiki:toc max_depth="2" />
 
-<wiki:toc max_depth="3" />
-
-=== Pro Version ===
+== Pro Version ==
 
 v4.0.2
  * Re-enable Cupcake support.
@@ -82,7 +80,7 @@ v3.0.0
  * Option to show the charge as larger text (only in notification tray).
  * Color preview.
 
-=== Free Version ===
+== Free Version ==
 
 v4.0.3
  * Backport option from Pro version to add textual charge level to notification.  This is easier for some people to see and critically important for those using a screen reader to interact with their device.
