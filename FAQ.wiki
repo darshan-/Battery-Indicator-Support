@@ -3,6 +3,12 @@
 <h2>Contents</h2>
 <wiki:toc max_depth="2" />
 
+== Help! The app won't download! ==
+
+As a third-party developer, I can't help at all with this. Please see
+[http://www.google.com/support/androidmarket/bin/answer.py?hl=en&answer=1067233&topic=1100168
+the offical Android Market support page for this issue].
+
 == What's new in the update? ==
 
 Please see the [Changelog].
@@ -187,21 +193,6 @@ mean time, I'll continue to do my best to balance usefulness and
 configurability on the one hand and keeping the app very lightweight
 on the other.
 
-== Help!  The app won't download! ==
-
-You need to go to Google for support if you're having any problems
-with purchasing, downloading, and/or installing apps from the Android
-Market.  They're the ones in control of all of that, so there's not
-much I can do to help.  (Once you have Battery Indicator installed, of
-course I'm the person to go to for support with the app itself.)
-
-I have noticed, though, that sometimes if the Market app gets stuck
-and won't download or install an app, restarting your phone and trying
-again can help.  If the problem is with credit card authorization, it
-might be that you need to update your credit card on file with Google
-Checkout.  (It may be that your expiration date has changed, for
-example.)
-
 == Please allow the app to be installed to SD card for Android 2.2+. ==
 
 I hear you.  However, Google is very clear that apps such as Battery
@@ -218,17 +209,3 @@ turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
-
-== Who are you? ==
-
-Well, that's a big and important question that's well beyond the
-scope of this FAQ.  In brief, my legal name is Josiah Barber, although
-I normally go by my nickname, Darshan.  Computers have been a hobby of
-mine for most of my life, especially since 1999, when I got into open
-source software.  Right now I'm studying to become a development
-economist.
-
-I work on Battery Indicator in my free time (mostly over the summer)
-and the donations I get for the Pro version really go a long way
-toward making my life easier and helping me keep focused on my
-schoolwork.
