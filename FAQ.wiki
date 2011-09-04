@@ -16,7 +16,7 @@ As a third-party developer, I can't help at all with this. Please see
 
 == What's new in the update? ==
 
-Please see the [Changelog].
+Please see the [http://code.google.com/p/battery-indicator/wiki/Changelog?tm=6].
 
 == Why does the app ask for the permissions that it does? ==
 
