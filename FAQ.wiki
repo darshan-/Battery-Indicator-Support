@@ -1,6 +1,11 @@
 #summary Frequently Asked Questions
 #labels Order-000
 <h1>Frequently Asked Questions</h1>
+
+If you have a question or a problem, please look over the titles of
+the questions here to see if it has already been addressed. The last
+question explains what to do if it has not.
+
 <h2>Contents</h2>
 <wiki:toc max_depth="2" />
 
@@ -209,3 +214,7 @@ turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
+
+== I still have a question or a problem. ==
+
+You can [http://code.google.com/p/battery-indicator/wiki/AskAQuestionOrReportAProblem?tm=3 Ask a question or report a problem].
