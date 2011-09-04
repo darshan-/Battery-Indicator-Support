@@ -1,7 +1,7 @@
 #summary Frequently Asked Questions
 = Frequently Asked Questions =
 
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 
 == What's new in the update? ==
 
