@@ -1,6 +1,6 @@
 #summary Frequently Asked Questions
-== Contents ==
-
+<h1>Frequently Asked Questions</h1>
+<h2>Contents</h2>
 <wiki:toc max_depth="2" />
 
 == What's new in the update? ==
