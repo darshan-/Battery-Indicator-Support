@@ -1,4 +1,5 @@
 #summary Frequently Asked Questions
+#sidebar sidebar
 <h1>Frequently Asked Questions</h1>
 
 If you have a question or a problem, please look over the titles of
