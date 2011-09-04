@@ -6,8 +6,7 @@
 == Help! The app won't download! ==
 
 As a third-party developer, I can't help at all with this. Please see
-[http://www.google.com/support/androidmarket/bin/answer.py?hl=en&answer=1067233&topic=1100168
-the offical Android Market support page for this issue].
+[http://www.google.com/support/androidmarket/bin/answer.py?hl=en&answer=1067233&topic=1100168 the offical Android Market support page for this issue].
 
 == What's new in the update? ==
 
