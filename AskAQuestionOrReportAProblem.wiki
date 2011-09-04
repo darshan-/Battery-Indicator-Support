@@ -1,7 +1,7 @@
 #summary Describes what to do if you have a question or a problem
 = Ask a Question or Report a Problem =
 
-If you have an issue that isn't addressed in the [FAQ], please:
+If you have an issue that isn't addressed in the [http://code.google.com/p/battery-indicator/wiki/FAQ?tm=6 FAQ], please:
 
  # Search through the existing user-reported issues.
  # If you find your issue and it solves your problem, you're done.
