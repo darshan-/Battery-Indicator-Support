@@ -85,6 +85,9 @@ v3.0.0
 
 == Free Version ==
 
+v4.0.4
+ * Update contact info and website URLs.
+
 v4.0.3
  * Backport option from Pro version to add textual charge level to notification.  This is easier for some people to see and critically important for those using a screen reader to interact with their device.
 
