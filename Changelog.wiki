@@ -6,6 +6,9 @@
 
 == Pro Version ==
 
+v4.0.4
+ * Avoid force closing on devices that don't have !BackupManager.
+
 v4.0.3
  * Add !BackupManager support for devices that use it.
  * Update contact info and website URLs.
