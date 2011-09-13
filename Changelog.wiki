@@ -7,7 +7,7 @@
 == Pro Version ==
 
 v4.0.3
- * Add BackupManager support for devices that use it.
+ * Add !BackupManager support for devices that use it.
  * Update contact info and website URLs.
 
 v4.0.2
