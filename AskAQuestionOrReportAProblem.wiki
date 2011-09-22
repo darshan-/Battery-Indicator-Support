@@ -8,6 +8,6 @@ If you have an issue that isn't addressed in the [http://code.google.com/p/batte
  # If you find your issue and have something to add, please add a comment to it.
  # If your issue is not already described, then create a new issue.
 
-Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Question%20&sort=priority&colspec=ID%20Type%20Status%20Priority%20Summary existing questions].
+Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Question existing questions].
 
-Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Defect%20&sort=priority&colspec=ID%20Type%20Status%20Priority%20Summary existing problems].
+Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Defect existing problems].
