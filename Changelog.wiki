@@ -6,6 +6,16 @@
 
 == Pro Version ==
 
+v5.0.2
+ * Layout fixes for most translations.
+
+v5.0.1
+ * Fixed Russian translation (it was causing a force-close for Russian-language users).
+
+v5.0.0
+ * New Feature: Icon plugins. There are just a few plugins right now, but they are very useful for black status bars, and more plugins will be coming.
+ * There are also quite a few translation updates and several new translations.
+
 v4.0.4
  * Avoid force closing on devices that don't have !BackupManager.
 
@@ -91,6 +101,12 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v4.0.6
+ * Fixed Russian translation (it was causing a force-close for Russian-language users).
+
+v4.0.5
+ * Many new and updated translations.
 
 v4.0.4
  * Update contact info and website URLs.
