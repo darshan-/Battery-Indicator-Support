@@ -6,7 +6,7 @@ If you have an issue that isn't addressed in the [http://code.google.com/p/batte
  # Search through the existing user-reported issues.
  # If you find your issue and it solves your problem, you're done.
  # If you find your issue and have something to add, please add a comment to it.
- # If your issue is not already described, then create a new issue.  Note that if you have a problem report rathen than just a question, you should switch from "Ask a Question" (the default) to "Report a Problem".
+ # If your issue is not already described, then create a new issue.  Note that if you have a problem report rather than just a question, you should switch from "Ask a Question" (the default) to "Report a Problem".
 
 Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Question existing questions].
 
