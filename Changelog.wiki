@@ -6,6 +6,13 @@
 
 == Pro Version ==
 
+v5.0.4
+ * Fix for a technical matter forgotten in 5.0.3 release.
+
+v5.0.3
+ * Updated Romanian, Russian, and Brazilian Portuguese translations.
+ * Minor layout fixes.
+
 v5.0.2
  * Layout fixes for most translations.
 
@@ -101,6 +108,9 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v4.0.7
+ * Updated Romanian, Russian, and Brazilian Portuguese translations.
 
 v4.0.6
  * Fixed Russian translation (it was causing a force-close for Russian-language users).
