@@ -6,7 +6,7 @@
 
 == Pro Version ==
 
-v5.0.5
+v5.0.6
  * Fixed full screen window theme so that the app completely fills the screen again.
 
 v5.0.5
