@@ -7,6 +7,9 @@
 == Pro Version ==
 
 v5.0.5
+ * Fixed full screen window theme so that the app completely fills the screen again.
+
+v5.0.5
  * Improved support for Android 4.0 (Ice Cream Sandwich) for Galaxy Nexus.
  * Minor layout fixes.
 
