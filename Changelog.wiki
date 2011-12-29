@@ -6,6 +6,11 @@
 
 == Pro Version ==
 
+v5.0.7
+ * Updated translations (in particular, the long-standing German landend/ladend issue).
+ * Disable 'colorful small' window theme.
+ * Minor layout fix.
+
 v5.0.6
  * Fixed full screen window theme so that the app completely fills the screen again.
 
@@ -115,6 +120,11 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v4.0.8
+ * Updated translations (in particular, the long-standing German landend/ladend issue).
+ * Improved support for Android 4.0 (Ice Cream Sandwich).
+ * Minor layout fixes.
 
 v4.0.7
  * Updated Romanian, Russian, and Brazilian Portuguese translations.
