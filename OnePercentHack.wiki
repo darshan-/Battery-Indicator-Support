@@ -1,4 +1,4 @@
-#summary One-Percent Hack for devices that default to multiples of 10 percent.
+#summary Info about the one-percent hack for devices that default to multiples of 10 percent.
 #sidebar sidebar
 <h1>The One-Percent Hack</h1>
 
