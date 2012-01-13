@@ -91,7 +91,7 @@ perceptible effect on battery life.
 
 == Your app only displays the charge with a 10% resolution.  Please fix this. ==
 
-Battery Indicator displays exactly what the system reports to it.  The
+~~Battery Indicator displays exactly what the system reports to it.  The
 (original) *Motorola DROID*, the *Motorola Droid X*, the *Motorola
 Droid 2*, and the *Samsung Moment* are known to only report their
 charge at 10% intervals.  This is dumb but not my fault.  I've heard
@@ -107,7 +107,11 @@ about the issue.
 All other Android devices, as far as I know, report their charge at 1%
 intervals.  _If you have a device that fails to do so (other than those
 already mentioned in the previous paragraph), please let me know, and
-I'll add it to this list_.
+I'll add it to this list_.~~
+
+_*Update*_: Please see
+[http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6
+OnePercentHack].
 
 == Battery Indicator is inaccurate or jumps by several percent. ==
 
