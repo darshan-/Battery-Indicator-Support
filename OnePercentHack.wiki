@@ -50,7 +50,7 @@ comment to issue 54 to let me know what you found.
 || Motorola Droid Razr || _Unknown_ ||
 || Samsung Moment || _Unknown_ ||
 
-* Note that the 'Droid' name is is often replaced with 'Milestone' in
+`*` Note that the 'Droid' name is is often replaced with 'Milestone' in
 many countries, but most likely these statuses apply to the Milestone
 versions, too.
 
