@@ -78,7 +78,7 @@ device drains.  _This is probably the most important thing I need to
 know_, because if some devices do that, it means the Broadcast isn't
 being sent often enough, and I'll have to set up a suboption to poll
 at regular intervals.  Because none of my test devices work this way,
-_I need to hear from you if you have a device that does_.
+_*I need to hear from you if you have a device that does*_.
 
 So if it appears to work, please keep on eye on it for a few hours and
 try to verify that it drops fairly regularly at (close to) single
