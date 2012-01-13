@@ -102,16 +102,15 @@ one of these crippled devices, and you find it bothersome, I think it
 might be helpful to let your carrier and/or device manufacturer know
 how you feel.  Motorola in particular is building a bad reputation in
 this regard, so it would be good for them to know that people care
-about the issue.
+about the issue.~~
 
-All other Android devices, as far as I know, report their charge at 1%
+~~All other Android devices, as far as I know, report their charge at 1%
 intervals.  _If you have a device that fails to do so (other than those
 already mentioned in the previous paragraph), please let me know, and
 I'll add it to this list_.~~
 
 _*Update*_: Please see
-[http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6
-OnePercentHack].
+[http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack].
 
 == Battery Indicator is inaccurate or jumps by several percent. ==
 
