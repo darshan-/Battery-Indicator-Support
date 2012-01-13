@@ -10,14 +10,17 @@
 
 == Device Table ==
 
-This is a list of devices that only show multiples of 10% by default, 
+This is a partial list of devices that only show multiples of 10% by
+default, along with their status with the hack.  If your device isn't
+listed or has an unknown status, please test the hack and add a
+comment to issue 54 to let me know what you found.
 
 || *Device* || *Status* ||
-|| Motorola Droid (original) || _This hack does *not* help._ ||
+|| Motorola Droid (original) || _The hack does *not* help._ ||
 || Motorola Droid 2 || _Unknown_ ||
-|| Motorola Droid X || *Works perfectly* with one-percent hack enabled. ||
+|| Motorola Droid X || *Works perfectly* with the hack enabled. ||
 || Motorola Droid X2 || _Unknown_ ||
 || Motorola Defy || _Unknown_ ||
-|| Motorola Razr || _Unknown_ ||
+|| Motorola Droid Razr || _Unknown_ ||
 || Motorola ... || _Unknown_ ||
 || Samsung Moment || _Unknown_ ||
