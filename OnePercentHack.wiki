@@ -46,8 +46,9 @@ comment to issue 54 to let me know what you found.
 || Motorola Droid 2 || _Unknown_ ||
 || Motorola Droid X || *Works perfectly* with the hack enabled. ||
 || Motorola Droid X2 || _Unknown_ ||
-|| Motorola Defy || _Unknown_ ||
 || Motorola Droid Razr || _Unknown_ ||
+|| Motorola Defy || _Unknown_ ||
+|| Motorola Electrify<br>(Probably includes Photon) || Reportedly *works perfectly* with the hack enabled. ||
 || Samsung Moment || _Unknown_ ||
 
 `*` Note that the 'Droid' name is is often replaced with 'Milestone' in
