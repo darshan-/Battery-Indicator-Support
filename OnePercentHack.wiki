@@ -58,7 +58,8 @@ versions, too.
 
 Please follow these instructions if your device isn't listed, or if it
 needs its information updated.  Whatever the result, please comment on
-issue 54 and include the full name of your device.
+issue 54 and include the full name of your device along with what you
+found.
 
 If the app can determine on its own that your device won't be able to
 support the hack (e.g., the charge_counter file doesn't exist, as on
