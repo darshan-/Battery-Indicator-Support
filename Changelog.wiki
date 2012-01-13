@@ -7,8 +7,8 @@
 == Pro Version ==
 
 v5.1.0
- * Updated Slovak translation
- * Improved appearance on Droid X (and possiblity other, similar devices)
+ * Updated Slovak translation.
+ * Improved appearance on Droid X (and possiblity other, similar devices).
  * Long-awaited experimental single-percent increments for some (many? most?) devices that previously only showed ten-percent increments.  Please see [http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack] for more info, and to report your results.
 
 
