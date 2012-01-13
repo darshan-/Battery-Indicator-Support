@@ -72,7 +72,7 @@ on), please turn it on.  Ideally, the app will immediately start
 showing your battery level with one-percent increments.  It seems
 possible that some devices will show non-multiples of 10, but will
 still jump by 10 percent.  E.g., jumping from 65 to 55 to 45 as your
-drain.
+device drains.
 
 So if it appears to work, please keep on eye on it for a few hours and
 try to verify that it drops fairly regularly at (close to) single
