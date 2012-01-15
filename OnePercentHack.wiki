@@ -51,6 +51,7 @@ listed or has an unknown status, please test the hack and add a
 comment to issue 54 to let me know what you found.
 
 || *Device* || *Status* ||
+|| Motorola Atrix || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Defy || _*Probably works*_, since the Defy+ does. ||
 || Motorola Defy+ || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid (original) || The hack does *not* help. ||
