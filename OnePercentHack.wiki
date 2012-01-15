@@ -52,7 +52,7 @@ comment to issue 54 to let me know what you found.
 
 || *Device* || *Status* ||
 || Motorola Atrix || Reportedly *works perfectly* with the hack enabled. ||
-|| Motorola Defy || _*Probably works*_, since the Defy+ does. ||
+|| Motorola Defy || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Defy+ || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid (original) || The hack does *not* help. ||
 || Motorola Droid 2 || Reportedly *works perfectly* with the hack enabled. ||
@@ -84,14 +84,19 @@ reached the end of testing, but please let me know in issue 54.
 
 If the option is not disabled (that is, if you are able to turn it
 on), please turn it on.  Ideally, the app will immediately start
-showing your battery level with one-percent increments.  It seems
-possible that some devices will show non-multiples of 10, but will
-still jump by 10 percent.  E.g., jumping from 65 to 55 to 45 as your
-device drains.  _This is probably the most important thing I need to
-know_, because if some devices do that, it means the Broadcast isn't
-being sent often enough, and I'll have to set up a suboption to poll
-at regular intervals.  Because none of my test devices work this way,
-_*I need to hear from you if you have a device that does*_.
+showing your battery level with one-percent increments.  (Keep in mind
+that there's a one-in-ten chance that it won't change immediately --
+if it says 70 without this option, it may well happen to be right at
+70.  So keep an eye on it and see if it soon discharges to 69 or
+charges to 71.)
+
+It seems possible that some devices will show non-multiples of 10, but
+will still jump by 10 percent.  E.g., jumping from 65 to 55 to 45 as
+your device drains.  _This is probably the most important thing I need
+to know_, because if some devices do that, it means the Broadcast
+isn't being sent often enough, and I'll have to set up a suboption to
+poll at regular intervals.  Because none of my test devices work this
+way, _*I need to hear from you if you have a device that does*_.
 
 So if it appears to work, please keep on eye on it for a few hours and
 try to verify that it drops fairly regularly at (close to) single
