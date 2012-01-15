@@ -10,10 +10,11 @@
 Many (most?) Motorola devices only show the battery level as a
 multiple of 10% by default.  There is now an option to attempt a
 workaround.  It is in the "Other Settings" page of the Battery
-Indicator Pro settings, at the bottom.  Once I have a better
-understanding of how well and how universally it works (I need you to
-test it out and report back in the comments on issue 54), it will be
-added to the free version.
+Indicator Pro settings, at the bottom.  It has also been added
+the the settings page of the Free version.
+
+I need your help to test it out and report back in the comments on
+issue 54.
 
 == Technical Details ==
 
@@ -21,7 +22,12 @@ For some strange reason, Motorola decided to only show the battery
 level in 10-percent increments on most of their Android devices.
 However, many of these devices have a file at
 `/sys/class/power_supply/battery/charge_counter` that contains the
-current charge level to the nearest single percent.
+current charge level to the nearest single percent.  (My understanding
+is that this is not what this file is suppoed to be used for.
+Non-crippled devices often don't have the file, and when they do, they
+use it accorinding to the linux documention, which describes a
+different purpose -- so in those cases the file does not contain the
+battery level.)
 
 I originally assumed that I would need to set up a timer to trigger
 the Battery Indicator Service to wake up and check that file at
@@ -33,6 +39,9 @@ just as often as non-crippled devices, with everything except the
 current actual charge level (the thing most people are most interested
 in).  That's unexpected, but if this is how all of these crippled
 devices work, at least it keeps the workaround very simple.
+
+Based on the reports I've received so far, that (thankfully) appears
+to be the case.
 
 == Device Status ==
 
@@ -62,7 +71,7 @@ versions, too.
 == Testing Instructions ==
 
 Please follow these instructions if your device isn't listed, or if it
-needs its information updated.  Whatever the result, please comment on
+needs its information updated.  Working or not, please comment on
 issue 54 and include the full name of your device along with what you
 found.
 
