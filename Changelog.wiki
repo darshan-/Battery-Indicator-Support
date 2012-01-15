@@ -9,8 +9,7 @@
 v5.1.0
  * Updated Slovak translation.
  * Improved appearance on Droid X (and possiblity other, similar devices).
- * Long-awaited experimental single-percent increments for some (many? most?) devices that previously only showed ten-percent increments.  Please see [http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack] for more info, and to report your results.
-
+ * Long-awaited experimental single-percent increments for most devices that previously only showed ten-percent increments.  Please see [http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack] for more info, and to report your results.
 
 v5.0.7
  * Updated translations (in particular, the long-standing German landend/ladend issue).
@@ -126,6 +125,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v4.1.0
+ * Updated Slovak translation.
+ * Long-awaited experimental single-percent increments for most devices that previously only showed ten-percent increments.  Please see [http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack] for more info, and to report your results.
 
 v4.0.8
  * Updated translations (in particular, the long-standing German landend/ladend issue).
