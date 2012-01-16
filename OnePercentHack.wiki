@@ -61,7 +61,7 @@ comment to issue 54 to let me know what you found.
 || Motorola Droid 3 || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid Bionic || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid Razr || Reportedly *works perfectly* with the hack enabled. ||
-|| Motorola Droid X || *My test device*. *Works perfectly* with the hack enabled. ||
+|| Motorola Droid X || _My test device_. *Works perfectly* with the hack enabled. ||
 || Motorola Droid X2 || _Unknown_ ||
 || Motorola Electrify || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Photon || _*Probably works*_, since the Electrify does. ||
