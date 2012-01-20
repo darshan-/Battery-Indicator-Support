@@ -7,7 +7,7 @@
 == Pro Version ==
 
 v5.1.1
- * _Bugfix_: Alarms were not being shown if you used an icon plugin.  They should now work perfectly with or without icon plugins.
+ * _Bugfix_: Triggered alarms were not being shown if you used an icon plugin.  They should now work perfectly with or without icon plugins.
 
 v5.1.0
  * Updated Slovak translation.
