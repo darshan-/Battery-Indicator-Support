@@ -78,9 +78,9 @@ versions, too.
 
 == Testing Instructions ==
 
-*_Update_:* The hack is now assumed to work on all Motorola devices
+*_Update_:* _The hack is now assumed to work on all Motorola devices
 besides the original Droid, so please disregard this section unless
-you notice a problem.
+you notice a problem._
 
 Please follow these instructions if your device isn't listed, or if it
 needs its information updated.  Working or not, please comment on
