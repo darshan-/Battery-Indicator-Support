@@ -8,13 +8,10 @@
 == Summary ==
 
 Many (most?) Motorola devices only show the battery level as a
-multiple of 10% by default.  There is now an option to attempt a
+multiple of 10% by default.  There is now an option to apply a
 workaround.  It is in the "Other Settings" page of the Battery
 Indicator Pro settings, at the bottom.  It has also been added
 the the settings page of the Free version.
-
-I need your help to test it out and report back in the comments on
-issue 54.
 
 == Technical Details ==
 
@@ -46,9 +43,13 @@ to be the case.
 == Device Status ==
 
 This is a partial list of devices that only show multiples of 10% by
-default, along with their status with the hack.  If your device isn't
-listed or has an unknown status, please test the hack and add a
-comment to issue 54 to let me know what you found.
+default, along with their status with the hack.  ~~If your device only
+shows 10% increments and this option doesn't work, please add a
+comment to issue 54 to let me know what you found.~~
+
+I'm no longer looking for more reports of it successfully
+working. It's assumed to work on all devices other than the original
+Droid, so I only need to hear reports of it _failing_ to work.
 
 || *Device* || *Status* ||
 || Motorola Atrix || Reportedly *works perfectly* with the hack enabled. ||
@@ -60,6 +61,7 @@ comment to issue 54 to let me know what you found.
 || Motorola Droid (original) || The hack does *not* help. ||
 || Motorola Droid 2 || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid 3 || Reportedly *works perfectly* with the hack enabled. ||
+|| Motorola Droid 4 || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid Bionic || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid Razr || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid Razr Maxx || Reportedly *works perfectly* with the hack enabled. ||
@@ -75,6 +77,10 @@ many countries, but most likely these statuses apply to the Milestone
 versions, too.
 
 == Testing Instructions ==
+
+*_Update_:* The hack is now assumed to work on all Motorola devices
+besides the original Droid, so please disregard this section unless
+you notice a problem.
 
 Please follow these instructions if your device isn't listed, or if it
 needs its information updated.  Working or not, please comment on
