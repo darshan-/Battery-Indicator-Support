@@ -6,6 +6,9 @@
 
 == Pro Version ==
 
+v5.1.3
+ * Fixed error in Brazilian Portuguese translation that was causing a force close.
+
 v5.1.2
  * Updated Dutch and Turkish translations.
  * Clarified some help text.
