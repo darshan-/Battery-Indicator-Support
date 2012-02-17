@@ -6,6 +6,11 @@
 
 == Pro Version ==
 
+v5.1.2
+ * Updated Dutch and Turkish translations.
+ * Clarified some help text.
+ * Show percentage sign with Textual charge level feature.
+
 v5.1.1
  * _Bugfix_: Triggered alarms were not being shown if you used an icon plugin.  They should now work perfectly with or without icon plugins.
 
@@ -128,6 +133,12 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v4.1.1
+ * Updated Dutch and Turkish translations.
+ * Clarified some help text.
+ * Show percentage sign with Textual charge level feature.
+ * Simplified settings screen.
 
 v4.1.0
  * Updated Slovak translation.
