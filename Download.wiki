@@ -20,4 +20,4 @@ Benefits of downloading from the Android Market include:
 
 If you do download it from here, please 
 
-<wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="300" height="125">
+<wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="300" height="75">
