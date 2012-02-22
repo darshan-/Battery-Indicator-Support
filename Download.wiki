@@ -1,5 +1,5 @@
 #summary Download
-
+#sidebar sidebar
 <h1>Download</h1>
 
 I've always wanted to offer the APK (the runnable version of the app)
@@ -15,5 +15,8 @@ download it from here.  For example:
  * If you need more than 15 minutes to decide if the price I'm asking is worth it.
 
 If you do download it from here, please 
+
+
+<wiki:gadget url="https://storegadgetwizard.appspot.com/servlets/gadgetServlet?key=0AsDg7NgWuj6DdHZWUGVHaHhrbkI5U2FmVzRTN29LOEE&mid=223872044313258&currency=USD&sandbox=false&gadget=SMALL">
 
 [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4THHNCZYHA2DL https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif]
