@@ -1,6 +1,6 @@
-#summary Download
+#summary Download the APK / Support development
 #sidebar sidebar
-<h1>Download</h1>
+<h1>Package Download</h1>
 
 I've always wanted to offer the APK (the runnable version of the app)
 to the Pro version on this site, but I've always been a little afraid
@@ -24,5 +24,7 @@ If you do download it from here, please
 <wiki:gadget url="https://storegadgetwizard.appspot.com/servlets/gadgetServlet?key=0AsDg7NgWuj6DdHZWUGVHaHhrbkI5U2FmVzRTN29LOEE&mid=223872044313258&currency=USD&sandbox=false&gadget=SMALL">
 
 <wiki:gadget url="http://bi-icon-plugins.darshancomputing.com/test-gadget.xml">
+
+<wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml">
 
 [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4THHNCZYHA2DL https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif]
