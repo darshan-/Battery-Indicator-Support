@@ -44,9 +44,9 @@ is one of the best forms of support.
 To be very clear: this is a for-profit business, not a non-profit, so
 your donations are _not_ tax-deductible.  I use the word "donate" to
 mean that you are voluntarily supporting development rather than
-buying the product at a fixed price or not.  I'm running my business a
-bit differently than is common by sharing the source code publicly and
-offering the packages for download here.
+buying the product at a fixed price (or not).  I'm running my business
+a bit differently than is common by sharing the source code publicly
+and offering the packages for download here.
 
 If you like that idea, please support it!
 
