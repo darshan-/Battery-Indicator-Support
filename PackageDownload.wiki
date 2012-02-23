@@ -1,4 +1,5 @@
 #summary Download the APK / Support development
+#sidebar sidebarDownloads
 <h1>Package Download</h1>
 
 <h2>Contents</h2>
