@@ -34,4 +34,5 @@ donation amount on the next page.
 
 If you prefer to donate in a currency other than US dollars, you can
 use !PayPal to send it to the email address listed as the owner of
-this project.
+this project.  (Or find the correct address by clicking the !PayPal
+button above; the addres is large at the top of that screen.)
