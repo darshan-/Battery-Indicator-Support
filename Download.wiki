@@ -20,6 +20,6 @@ Benefits of downloading from the Android Market include:
 
 If you do download it from here, please 
 
-<wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="290" height="78">
+<wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="290" height="80">
 
 [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4THHNCZYHA2DL https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif]
