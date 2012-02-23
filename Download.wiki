@@ -16,9 +16,9 @@ download it from here.  For example:
 
 Benefits of downloading from the Android Market include:
  * Automatic updates.
- * You increase the number of dowloads/installs and can rate and review, all of which help the ranking of the app.
+ * You increase the number of downloads/installs and can rate and review, all of which help the ranking of the app.
 
-Therefore, even if you initally download the app from here to try it
+Therefore, even if you initially download the app from here to try it
 out, please consider purchasing it from the Market if you can.
 
 If you do download it from here, please consider supporting
@@ -35,4 +35,5 @@ donation amount on the next page.
 If you prefer to donate in a currency other than US dollars, you can
 use !PayPal to send it to the email address listed as the owner of
 this project.  (Or find the correct address by clicking the !PayPal
-button above; the addres is large at the top of that screen.)
+button above; the address is indicated at the top of that screen in a
+very large font.)
