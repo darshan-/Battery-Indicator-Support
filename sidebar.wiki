@@ -1,4 +1,4 @@
  * [http://code.google.com/p/battery-indicator/wiki/FAQ?tm=6 FAQ]
  * [http://code.google.com/p/battery-indicator/wiki/Changelog?tm=6 Changelog]
- * [http://code.google.com/p/battery-indicator/wiki/DownloadPackage?tm=6 Download Package]
+ * [http://code.google.com/p/battery-indicator/wiki/PackageDownload?tm=6 PackageDownload]
  * [http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack]
