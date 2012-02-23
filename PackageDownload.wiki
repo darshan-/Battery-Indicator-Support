@@ -53,9 +53,9 @@ If you like that idea, please support it!
 <wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="260" height="84">
 
 If you prefer !PayPal, you can use this button and choose your
-donation amount on the next page.  I believe this works even if you
-don't have a !PayPal account (you can just enter credit card details
-without creating an account.)
+donation amount on the next page.  I believe but am not certain that
+this works even if you don't have a !PayPal account (I think you can
+just enter your credit card details without creating an account.)
 
 [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EK2UU4GETQG8A https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif]
 
