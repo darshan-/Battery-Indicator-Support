@@ -18,8 +18,14 @@ Benefits of downloading from the Android Market include:
  * Automatic updates.
  * You increase the number of dowloads/installs and can rate and review, all of which help my ranking.
 
-If you do download it from here, please 
+If you do download it from here, please consider supporting
+development with a donation of whatever amount you feel is appropriate.
 
 <wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="260" height="84">
 
-[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4THHNCZYHA2DL https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif]
+If you prefer PayPal, you can use this button and choose your donation amount on the next page.
+
+[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EK2UU4GETQG8A https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif]
+
+If you prefer to donate in a currency other than US dollars, you can
+use PayPal to send it to me email address listed as the owner of this project.
