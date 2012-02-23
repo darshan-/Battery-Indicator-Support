@@ -18,6 +18,13 @@ As a third-party developer, I can't help at all with this. Please see
 
 Please see the [http://code.google.com/p/battery-indicator/wiki/Changelog?tm=6 Changelog].
 
+== I don't have access to the Android Market. Can I download the APK? ==
+
+I'm glad to finally have the APKs available for download from this
+site.  Please see
+[http://code.google.com/p/battery-indicator/wiki/PackageDownload?tm=2 Package Download / Donation Form]
+or just click on the "Downloads" tab at the top of this page.
+
 == Why does the app ask for the permissions that it does? ==
 
 That's a very good question, one that I think every developer should
