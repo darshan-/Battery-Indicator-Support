@@ -2,6 +2,11 @@
 #sidebar sidebar
 <h1>Package Download</h1>
 
+<h2>Contents</h2>
+<wiki:toc max_depth="2" />
+
+== Background / Explanation ==
+
 I've always wanted to offer the APK (the runnable version of the app)
 to the Pro version on this site, but I've always been a little afraid
 it would cost me sales.  Consider this a trial run.
@@ -25,6 +30,8 @@ If you do download it from here, please consider supporting
 development with a donation of whatever amount you feel is
 appropriate.
 
+== Support / Donate ==
+
 <wiki:gadget url="http://gadgets.battery-indicator.googlecode.com/git/support-donate-buttons.xml" width="260" height="84">
 
 If you prefer !PayPal, you can use this button and choose your
@@ -37,3 +44,20 @@ use !PayPal to send it to the email address listed as the owner of
 this project.  (Or find the correct address by clicking the !PayPal
 button above; the address is indicated at the top of that screen in a
 very large font.)
+
+== Download APK Packages ==
+
+Some folks may prefer the free version, since it's smaller and
+simpler.  Since not everyone has access to the Android Market, here it
+is:
+[http://battery-indicator.googlecode.com/files/BatteryIndicator-4.1.1.apk
+BatteryIndicator-4.1.1.apk]
+
+And finally, the Pro version that most of you are probably interested
+in:
+[http://battery-indicator.googlecode.com/files/BatteryIndicatorPro-5.1.3.apk
+BatteryIndicatorPro-5.1.3.apk]
+
+You'll have to manually check back here from time to time to see if
+there's an update.  As always, the Changelog is useful for deciding if
+it's worth updating.
