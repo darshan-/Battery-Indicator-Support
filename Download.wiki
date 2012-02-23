@@ -34,9 +34,9 @@ appropriate.
 
 == Support / Donate ==
 
-Donations of any size are appreciated. I really won't judge you if
-it's a relatively small amount.  On the contrary, I'll be grateful
-that you chose to support my project.
+Donations of any size are appreciated. (Honestly! I really won't judge
+you if it's a relatively small amount.  On the contrary, I'll be
+grateful that you chose to support my project.)
 
 Remember, as discussed above, that purchasing from the Android Market
 is one of the best forms of support.
