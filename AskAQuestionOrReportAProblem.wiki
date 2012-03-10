@@ -1,5 +1,11 @@
 #summary Describes what to do if you have a question or a problem
-= Ask a Question or Report a Problem =
+= Ask a Question, Report a Problem, or Request a Feature =
+
+== Problems with purchasing, downloading, or installing ==
+
+If you are having problems with purchasing, downloading, or installing the app, please see [http://support.google.com/googleplay/bin/request.py?contact_type=market_phone_tablet_web Google's support page].  I can only help with troubleshooting the app itself.
+
+== Questions, Problems, and Requests ==
 
 If you have an issue that isn't addressed in the [http://code.google.com/p/battery-indicator/wiki/FAQ?tm=6 FAQ], please:
 
