@@ -9,10 +9,9 @@ question explains what to do if it has not.
 <h2>Contents</h2>
 <wiki:toc max_depth="2" />
 
-== Help! The app won't download! ==
+== I'm having a problem with purchasing, downloading, or installing the app. ==
 
-As a third-party developer, I can't help at all with this. Please see
-[http://www.google.com/support/androidmarket/bin/answer.py?hl=en&answer=1067233&topic=1100168 the offical Android Market support page for this issue].
+If you are having problems with purchasing, downloading, or installing the app, please see [http://support.google.com/googleplay/bin/request.py?contact_type=market_phone_tablet_web Google's support page].  I can only help with troubleshooting the app itself.
 
 == What's new in the update? ==
 
