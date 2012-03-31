@@ -7,11 +7,11 @@ If you are having problems with purchasing, downloading, or installing the app, 
 
 == Questions, Problems, and Requests ==
 
-_*Note from 31 March 2012*_: I realize I'm behind on responding to
+(_*Note from 31 March 2012*_: I realize I'm behind on responding to
 issues here, and I'm leaving in the morning to visit family for the
 first half of April.  I plan to start catching up over the second half
 of April.  I do read and consider all issues, I just often don't get
-around to responding for some time.
+around to responding for some time.)
 
 If you have an issue that isn't addressed in the [http://code.google.com/p/battery-indicator/wiki/FAQ?tm=6 FAQ], please:
 
