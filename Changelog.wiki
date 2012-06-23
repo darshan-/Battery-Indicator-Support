@@ -6,6 +6,15 @@
 
 == Pro Version ==
 
+v6.0.0
+ * Users of Honeycomb (Android 3.0), Ice Cream Sandwich (Android 4.0), and up now have a different default icon set that is much easier to see on these devices.
+ * Disabled timestamp in notification by default; added an option to reenable it.
+ * Updated French, Italian, and Traditional Chinese translations.
+
+v5.1.5
+ * Added initial Lithuanian translation.
+ * Updated Greek translation.
+
 v5.1.4
  * Added complete Greek translation.
  * Fairly large update to Dutch translation.
@@ -141,6 +150,15 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v5.0.0
+ * Users of Honeycomb (Android 3.0), Ice Cream Sandwich (Android 4.0), and up now have a different icon set that is much easier to see on these devices.
+ * Disabled timestamp in notification.
+ * Updated French, Italian, and Traditional Chinese translations.
+
+v4.1.3
+ * Added initial Lithuanian translation.
+ * Updated Greek translation.
 
 v4.1.2
  * Added complete Greek translation.
