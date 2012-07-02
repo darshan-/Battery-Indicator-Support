@@ -20,13 +20,13 @@ If you have an issue that isn't addressed in the [http://code.google.com/p/batte
  # If you find your issue and have something to add, please add a comment to it.
  # If your issue is not already described, then create a new issue.  Note that if you have a problem report rather than just a question, you should switch from "Ask a Question" (the default) to "Report a Problem".
 
-Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Question existing questions].
+Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=type=Question existing questions].
 
-Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Defect existing problems].
+Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=type=Defect existing problems].
 
 Or, you can "Request a Feature".  Most requests are pretty good ideas
 that nevertheless probably won't make it in, but every once in a
 while, a user-suggested features does get added.  In any case, if you
 want to suggest a feature, do it here.
 
-Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=label:Type%20label:Enhancement existing requests].
+Search [http://code.google.com/p/battery-indicator/issues/list?can=1&q=type=Enhancement existing requests].
