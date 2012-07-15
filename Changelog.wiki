@@ -6,6 +6,12 @@
 
 == Pro Version ==
 
+v6.0.1
+ * Users of Android 3.0+, who have the plain number icon by default, now have a translucent rather than black icon background, due to many user requests. Don't forget you can still get the classic icons as a plugin.
+ * Fixed bug with auto-disable lockscreen feature where the lockscreen would become disabled unexpectedly after first unlocking if it was never unlocked while plugged in.
+ * Fixed bug in Dutch translations (my fault, not the translator's) that caused the alarms to malfunction.  (Dutch users, please let me know if you still have any problems.)
+ * Minor update to Dutch translations and major update to Polish translations.
+
 v6.0.0
  * Users of Honeycomb (Android 3.0), Ice Cream Sandwich (Android 4.0), and up now have a different default icon set that is much easier to see on these devices.  NOTE: This only changes which icon set is used by default -- as Pro users, you can always get the new icons on an older device, or still use the old colored icons on a newer device.
  * Disabled timestamp in notification by default; added an option to reenable it.
@@ -150,6 +156,11 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v6.0.1
+ * Users of Android 3.0+, who have the plain number icon by default, now have a translucent rather than black icon background, due to many user requests.
+ * Minor update to Dutch translations and major update to Polish translations.
+ * Increased major version number to stay synchronized with Pro version.
 
 v5.0.0
  * Users of Honeycomb (Android 3.0), Ice Cream Sandwich (Android 4.0), and up now have a different icon set that is much easier to see on these devices.
