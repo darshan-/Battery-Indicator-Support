@@ -6,6 +6,12 @@
 
 == Pro Version ==
 
+v6.0.2
+ * Show separate notification when the lock screen is being disabled by the app. This can be turned off if desired.
+ * Users of Jelly Bean (Android 4.1+) can set the notification priority. This allows hiding the icon while leaving the notification in the tray, and/or lowering the notification in the tray to allow other notifications to be more easily accessed.
+ * Now only displays the voltage if the reported voltage is realistic. Some devices (e.g. Nexus 7) report an invalid voltage that is no longer displayed.
+ * Make the main window action bar a brighter, more noticeable gray
+
 v6.0.1
  * Users of Android 3.0+, who have the plain number icon by default, now have a translucent rather than black icon background, due to many user requests. Don't forget you can still get the classic icons as a plugin.
  * Fixed bug with auto-disable lockscreen feature where the lockscreen would become disabled unexpectedly after first unlocking if it was never unlocked while plugged in.
