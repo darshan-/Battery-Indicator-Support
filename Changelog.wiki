@@ -163,6 +163,11 @@ v3.0.0
 
 == Free Version ==
 
+v6.0.2
+ * Now uses notification prioriy "low" on Jelly Bean (Android 4.1+) to lower the notification in the tray to allow other notifications to be more easily accessed.
+ * Now only displays the voltage if the reported voltage is realistic. Some devices (e.g. Nexus 7) report an invalid voltage that is no longer displayed.
+ * Make the main window action bar a brighter, more noticeable grey.
+
 v6.0.1
  * Users of Android 3.0+, who have the plain number icon by default, now have a translucent rather than black icon background, due to many user requests.
  * Minor update to Dutch translations and major update to Polish translations.
