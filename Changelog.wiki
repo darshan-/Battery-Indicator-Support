@@ -3,8 +3,10 @@
 <h1>Changelog</h1>
 <h2>Contents</h2>
 <wiki:toc max_depth="2" />
-
 == Pro Version ==
+
+v6.0.3
+ * This update provides a *possible* fix for users who were having trouble with the alarms. Since I don't have one of the devices with the problem, it's hard to know. If you have been having trouble with the alarms, please send me an email letting me know if this update helped or not. Thanks!
 
 v6.0.2
  * Show separate notification when the lock screen is being disabled by the app. This can be turned off if desired.
