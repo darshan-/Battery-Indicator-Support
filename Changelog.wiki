@@ -5,6 +5,14 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v7.0.0
+ * There are now three built-in icon sets, and the default set for Android 3.0+ (Honeycomb and newer) is now even larger than before.  The default set on older devices is the old classic set.  On the few newer devices that don't actually shrink and dim the icons, or don't do so as much as stock Android, you might prefer to select the smaller white number or the old classic set.  Plugins are still supported.
+ * The newer sets with the plain number and charging indicator now make the charging indicator optional.
+ * _Translations_: Added Slovenian translations.
+ * _Translations_: Updated Hungarian translations.
+ * Unified build process to make updates easier; removed support for API levels 3 and 4 (Android 1.5 / Cupcake and Android 1.6 / Donut) for this version forward to make this work.  The old version will continue to work for this 0.4% of users.
+ * Removed BackupAgent, at least for now, as it seemed to cause as many problems as it solved.
+
 v6.0.3
  * This update provides a *possible* fix for users who were having trouble with the alarms. Since I don't have one of the devices with the problem, it's hard to know. If you have been having trouble with the alarms, please send me an email letting me know if this update helped or not. Thanks!
 
