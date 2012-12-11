@@ -11,7 +11,7 @@ question explains what to do if it has not.
 
 == I'm having a problem with purchasing, downloading, or installing the app. ==
 
-If you are having problems with purchasing, downloading, or installing the app, please see [http://support.google.com/googleplay/bin/request.py?contact_type=market_phone_tablet_web Google's support page].  I can only help with troubleshooting the app itself.
+If you are having problems with purchasing, downloading, or installing the app, please see [http://support.google.com/googleplay/bin/answer.py?hl=en&answer=1067233 Google's support page].  I can only help with troubleshooting the app itself.
 
 == What's new in the update? ==
 
