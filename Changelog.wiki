@@ -5,6 +5,11 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v7.0.2
+ * Fixed layout issue a small minority of devices were having with the Alarms screen.
+ * Added new health status: "Cold".
+ * Added new charging status: "Wireless".
+
 v7.0.1
  * Updated launcher icon.  (Sorry for updating so soon for something so minor, but the new icon got pushed out with the update to Free, and I don't want Free having a better icon than Pro.)
 
@@ -175,6 +180,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v7.0.2
+ * Added new health status: "Cold".
+ * Added new charging status: "Wireless".
 
 v7.0.1
  * There are now three built-in icon sets, and the default set for Android 3.0+ (Honeycomb and newer) is now even larger than before.  The default set on older devices is the old classic set.  On the few newer devices that don't actually shrink and dim the icons, or don't do so as much as stock Android, you might prefer to select the smaller white number or the old classic set.
