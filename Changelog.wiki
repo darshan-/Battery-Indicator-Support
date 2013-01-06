@@ -5,6 +5,12 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v7.0.3
+ * Added filters to logs (you can exclude status types that you aren't interested in).
+ * Removed `log_everything` setting -- the new log filtering feature makes this option pointless.
+ * Don't trigger `charge_rises` alarm if status is unplugged.  (You probably only care if you've _charged_ above your threshold, not if there's a minor fluctuation while discharging at your threshold.)
+ * Significant updates to Dutch translation; some minor updates to several other translations.
+
 v7.0.2
  * Fixed layout issue a small minority of devices were having with the Alarms screen.
  * Added new health status: "Cold".
@@ -180,6 +186,9 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v7.0.3
+ * Significant updates to Dutch translation; some minor updates to several other translations.
 
 v7.0.2
  * Added new health status: "Cold".
