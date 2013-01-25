@@ -192,6 +192,9 @@ v3.0.0
 
 == Free Version ==
 
+v7.0.4
+ * Removed some unnecessary strings.
+
 v7.0.3
  * Significant updates to Dutch translation; some minor updates to several other translations.
 
