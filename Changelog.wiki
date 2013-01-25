@@ -8,6 +8,7 @@
 v7.0.4
  * Added time deltas to logs.  (Major status changes show how long since plugged in / unplugged).
  * _Bugfix_: Finally fixed long-standing issue where, on Android 4.0+, disabled lock screen (a.k.a. keyguard) would become reenabled if a notification is pressed.
+ * _Bugfix_: Fixed bug where the app would crash if the screen was turned off while viewing the logs.
 
 v7.0.3
  * Added filters to logs (you can exclude status types that you aren't interested in).
