@@ -6,7 +6,7 @@
 == Pro Version ==
 
 v7.0.5
- * Automate one-percent hack.  Please let me know if you notice anything strange or get any crashes.
+ * Automate one-percent hack.  (It will be used if possible, and the option to turn it on/off has been removed.)  Please let me know if you notice anything strange or get any crashes.
  * Automatically restart the service after an upgrade (uses *Autostart at Boot* setting).
 
 v7.0.4
