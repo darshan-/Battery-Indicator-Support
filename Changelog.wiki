@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v7.0.5
+ * Automate one-percent hack.  Please let me know if you notice anything strange or get any crashes.
+ * Automatically restart the service after an upgrade (uses *Autostart at Boot* setting).
+
 v7.0.4
  * Added time deltas to logs.  (Major status changes show how long since plugged in / unplugged).
  * _Bugfix_: Finally fixed long-standing issue where, on Android 3.0+, disabled lock screen (a.k.a. keyguard) would become reenabled if a notification is pressed.
