@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v7.0.6
+ * Efficiency improvements to Motorola one-percent mode.
+ * Made Service less likely to be killed, which should result in increased accuracy and performance, especially on devices with a task killer.
+
 v7.0.5
  * Automate one-percent hack.  (It will be used if possible, and the option to turn it on/off has been removed.)  Please let me know if you notice anything strange or get any crashes.
  * Automatically restart the service after an upgrade (uses *Autostart at Boot* setting).
@@ -195,6 +199,11 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v7.0.6
+ * Efficiency improvements to Motorola one-percent mode.
+ * Made Service less likely to be killed, which should result in increased accuracy and performance, especially on devices with a task killer.
+ * Fix for wireless charging.
 
 v7.0.5
  * Automate one-percent hack.  (It will be used if possible, and the option to turn it on/off has been removed.)  Please let me know if you notice anything strange or get any crashes.
