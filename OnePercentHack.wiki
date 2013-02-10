@@ -8,10 +8,13 @@
 == Summary ==
 
 Many (most?) Motorola devices only show the battery level as a
-multiple of 10% by default.  There is now an option to apply a
+multiple of 10% by default.  ~~There is now an option to apply a
 workaround.  It is in the "Other Settings" page of the Battery
-Indicator Pro settings, at the bottom.  It has also been added
-the the settings page of the Free version.
+Indicator Pro settings, at the bottom.  It has also been added the the
+settings page of the Free version.~~ Update, 04 Feb 2013: The
+one-percent hack is now used automatically on applicable devices.  A
+few people have requested the ability to turn it off, so this option
+is planned for a future version.
 
 == Technical Details ==
 
@@ -20,9 +23,9 @@ level in 10-percent increments on most of their Android devices.
 However, many of these devices have a file at
 `/sys/class/power_supply/battery/charge_counter` that contains the
 current charge level to the nearest single percent.  (My understanding
-is that this is not what this file is suppoed to be used for.
+is that this is not what this file is supposed to be used for.
 Non-crippled devices often don't have the file, and when they do, they
-use it accorinding to the linux documention, which describes a
+use it according to the linux documentation, which describes a
 different purpose -- so in those cases the file does not contain the
 battery level.)
 
@@ -34,11 +37,11 @@ actually sent upon every 1-percent change -- down to the temperature
 and voltage details.  In other words, they still send the Broadcast
 just as often as non-crippled devices, with everything except the
 current actual charge level (the thing most people are most interested
-in).  That's unexpected, but if this is how all of these crippled
-devices work, at least it keeps the workaround very simple.
-
-Based on the reports I've received so far, that (thankfully) appears
-to be the case.
+in).  That's unexpected -- what's the point of not including the most
+important info?  I'd assumed the idea was to save battery power by not
+broadcasting as often, but these devices _do_ broadcast just as
+often...  In any case, it appears that all the crippled devices work
+this way, which keeps the workaround very simple.
 
 == Device Status ==
 
@@ -57,6 +60,7 @@ Droid, so I only need to hear reports of it _failing_ to work.
 || Motorola Charm || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Cliq 2 || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Defy || Reportedly *works perfectly* with the hack enabled. ||
+|| Motorola Defy XT || The hack does *not* help. ||
 || Motorola Defy+ || Reportedly *works perfectly* with the hack enabled. ||
 || Motorola Droid (original) || The hack does *not* help. ||
 || Motorola Droid 2 || Reportedly *works perfectly* with the hack enabled. ||
@@ -90,7 +94,7 @@ found.
 If the app can determine on its own that your device won't be able to
 support the hack (e.g., the `charge_counter` file doesn't exist, as on
 the original Droid), then the One-Percent Hack option will be disabled
-(grayed-out, unabled to be turned on).  In this case, you've already
+(grayed-out, unable to be turned on).  In this case, you've already
 reached the end of testing, but please let me know in issue 54.
 
 If the option is not disabled (that is, if you are able to turn it
