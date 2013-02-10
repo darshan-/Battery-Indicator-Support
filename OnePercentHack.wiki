@@ -11,7 +11,7 @@ Many (most?) Motorola devices only show the battery level as a
 multiple of 10% by default.  ~~There is now an option to apply a
 workaround.  It is in the "Other Settings" page of the Battery
 Indicator Pro settings, at the bottom.  It has also been added the the
-settings page of the Free version.~~ Update, 04 Feb 2013: The
+settings page of the Free version.~~ *Update, 04 Feb 2013:* The
 one-percent hack is now used automatically on applicable devices.  A
 few people have requested the ability to turn it off, so this option
 is planned for a future version.
