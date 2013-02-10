@@ -52,7 +52,9 @@ comment to issue 54 to let me know what you found.~~
 
 I'm no longer looking for more reports of it successfully
 working. It's assumed to work on all devices other than the original
-Droid, so I only need to hear reports of it _failing_ to work.
+Droid (*update 04 Feb 2013:* and now the Defy XT makes _two_ devices
+it doesn't help on), so I only need to hear reports of it _failing_ to
+work.
 
 || *Device* || *Status* ||
 || Motorola Atrix || Reportedly *works perfectly* with the hack enabled. ||
