@@ -15,6 +15,7 @@ v8.0.0 (Beta)
  * Initial release of !BatteryBot Pro.
  * Complete redesign of notification and main interface.
  * Fully automatic time remaining estimates based on recent usage.
+ * Significantly reduced memory usage for the Service.
  * Lots of changes under the hood and groundwork laid for upcoming features.
 
 v7.0.6
@@ -221,6 +222,7 @@ v8.0.0 (Beta)
  * Initial release of !BatteryBot.
  * Complete redesign of notification and main interface.
  * Fully automatic time remaining estimates based on recent usage.
+ * Significantly reduced memory usage for the Service.
  * Lots of changes under the hood and groundwork laid for upcoming features.
 
 v7.0.6
