@@ -5,6 +5,18 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.1 (Beta)
+ * _Bugfix_: App was restarting itself shortly after being closed.
+ * _Bugfix_: Jellybean notification priority setting was accidentally disabled even on Android 4.1+.
+ * _Bugfix_: Service is sometimes called with null Intent on some devices, which I hadn't thought possible, causing a crash.
+
+v8.0.0 (Beta)
+
+ * Initial release of BatteryBot Pro.
+ * Complete redesign of notification and main interface.
+ * Fully automatic time remaining estimates based on recent usage.
+ * Lots of changes under the hood and groundwork laid for upcoming features.
+
 v7.0.6
  * Efficiency improvements to Motorola one-percent mode.
  * Made Service less likely to be killed, which should result in increased accuracy and performance, especially on devices with a task killer.
@@ -199,6 +211,17 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.1 (Beta)
+ * _Bugfix_: App was restarting itself shortly after being closed.
+ * _Bugfix_: Service is sometimes called with null Intent on some devices, which I hadn't thought possible, causing a crash.
+
+v8.0.0 (Beta)
+
+ * Initial release of BatteryBot.
+ * Complete redesign of notification and main interface.
+ * Fully automatic time remaining estimates based on recent usage.
+ * Lots of changes under the hood and groundwork laid for upcoming features.
 
 v7.0.6
  * Efficiency improvements to Motorola one-percent mode.
