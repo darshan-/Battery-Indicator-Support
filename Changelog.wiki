@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.2 (Beta)
+ * _Bugfix_: Added option to show time since last status change rather than estimate of time remaining.
+ * _Bugfix_: Fixed option to disallow use of disable lockscreen button, which was broken in redesign.
+
 v8.0.1 (Beta)
  * _Bugfix_: App was restarting itself shortly after being closed.
  * _Bugfix_: Jellybean notification priority setting was accidentally disabled even on Android 4.1+.
@@ -212,6 +216,9 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.2 (Beta)
+ * _Bugfix_: Added option to show time since last status change rather than estimate of time remaining.
 
 v8.0.1 (Beta)
  * _Bugfix_: App was restarting itself shortly after being closed.
