@@ -5,6 +5,12 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.3 (Beta):
+
+ * Due to many complaints about the notification being too cluttered and not lining up properly with other notifications on Honeycomb+, I've cleaned things up by removing the battery graphic and fixing the alignment to be consistent with the default notification layout. More notification configuration options will be coming soon for Pro users.
+ * Updates to German, Romanian, and Russian translations.
+ *  Minor fixes.
+
 v8.0.2 (Beta)
  * Added option to show time since last status change rather than estimate of time remaining.
  * _Bugfix_: Fixed option to disallow use of disable lockscreen button, which was broken in redesign.
@@ -216,6 +222,12 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.3 (Beta):
+
+ * Due to many complaints about the notification being too cluttered and not lining up properly with other notifications on Honeycomb+, I've cleaned things up by removing the battery graphic and fixing the alignment to be consistent with the default notification layout. More notification configuration options will be coming soon for Pro users.
+ * Updates to German, Romanian, and Russian translations.
+ *  Minor fixes.
 
 v8.0.2 (Beta)
  * Added option to show time since last status change rather than estimate of time remaining.
