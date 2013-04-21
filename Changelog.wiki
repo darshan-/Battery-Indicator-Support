@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.5 (Beta)
+
+ * Added an option to use the system notification layout, since the custom layout doesn't fit in on some devices.
+
 v8.0.4 (Beta):
 
  * The notification in the drop down tray is now extremely configurable, both in what it shows and how it shows it.
@@ -229,10 +233,12 @@ v3.0.0
 
 == Free Version ==
 
-v8.0.4 (Beta):
+v8.0.5 (Beta)
 
- * For devices that don't set the default notification colors properly, they can be overridden.
+ * Added an option to use the system notification layout, since the custom layout doesn't fit in on some devices.
  * Updated Hungarian translations.
+
+v8.0.4 (Beta): (_Skipped in free version_)
 
 v8.0.3 (Beta):
 
