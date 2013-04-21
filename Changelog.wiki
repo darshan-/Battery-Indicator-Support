@@ -5,6 +5,12 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.4 (Beta):
+
+ * The notification in the drop down tray is now extremely configurable, both in what it shows and how it shows it.
+ * Exporting history / logs to CSV now includes both Fahrenheit and Celsius.
+ * Updated Hungarian translations.
+
 v8.0.3 (Beta):
 
  * Due to many complaints about the notification being too cluttered and not lining up properly with other notifications on Honeycomb+, I've cleaned things up by removing the battery graphic and fixing the alignment to be consistent with the default notification layout. More notification configuration options will be coming soon for Pro users.
@@ -222,6 +228,11 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.4 (Beta):
+
+ * For devices that don't set the default notification colors properly, they can be overridden.
+ * Updated Hungarian translations.
 
 v8.0.3 (Beta):
 
