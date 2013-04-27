@@ -5,6 +5,14 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.6 (Beta)
+
+ * Added ability to set custom colors for the notification, rather than just choosing among a few pre-set color options.
+
+ * Made the time-remaining estimates handle rare conditions better. I'm hoping this will resolve the issues a few people have been reporting about seeing estimates of 0 minutes or several hundred days. Please contact me if you have any other issues around this!
+
+ * Fairly substantial updates to both Dutch and Italian translations.
+
 v8.0.5 (Beta)
 
  * Added an option to use the system notification layout, since the custom layout doesn't fit in on some devices.
@@ -232,6 +240,12 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.6 (Beta)
+
+ * Made the time-remaining estimates handle rare conditions better. I'm hoping this will resolve the issues a few people have been reporting about seeing estimates of 0 minutes or several hundred days. Please contact me if you have any other issues around this!
+
+ * Updates to both Dutch and Italian translations.
 
 v8.0.5 (Beta)
 
