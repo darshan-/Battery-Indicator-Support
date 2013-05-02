@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.8 (Beta)
+
+ * _Bugfix_: Last release included a regression where very first run of clean install would cause a force close.
+
 v8.0.7 (Beta)
 
  * Many subtle bugs fixed.  If you've noticed any strange or incorrect behavior with alarms, time-remaining estimates, or time since status changed, this should (hopefully) fix things for you.  As always, please let me know if you run into any problems.
@@ -244,6 +248,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.8 (Beta)
+
+ * _Bugfix_: Last release included a regression where very first run of clean install would cause a force close.
 
 v8.0.7 (Beta)
 
