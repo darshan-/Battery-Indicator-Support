@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.7 (Beta)
+
+ * Many subtle bugs fixed.  If you've noticed any strange or incorrect behavior with alarms, time-remaining estimates, or time since status changed, this should (hopefully) fix things for you.  As always, please let me know if you run into any problems.
+
 v8.0.6 (Beta)
 
  * Added ability to set custom colors for the notification, rather than just choosing among a few pre-set color options.
@@ -240,6 +244,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.7 (Beta)
+
+ * Many subtle bugs fixed.  If you've noticed any strange or incorrect behavior with time-remaining estimates or time since status changed, this should (hopefully) fix things for you.  As always, please let me know if you run into any problems.
 
 v8.0.6 (Beta)
 
