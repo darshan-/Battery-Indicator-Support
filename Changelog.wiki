@@ -5,6 +5,14 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.0.10
+
+ * New option to select the algorithm for the time-remaining estimates. Choose from "Sensitive" (the old default), "Conservative" (the current default since v8.0.9), "Since Status Change", or "Long-term Average". Find this option under "Other Settings".
+
+ * Minor bugfixes.
+
+ * Removed the "Beta" label. Help test out new features before they're released by joining the beta program: https://plus.google.com/communities/108365502089038835850
+
 v8.0.9 (Beta)
 
  * The time-remaining estimates are now less sensitive. They're still based on recent usage, but you won't get the dramatic swings you had before. I plan to add back the old algorithm as an option for Pro users very soon. In the meantime, please let me know what you think of the estimates.
@@ -258,6 +266,12 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.0.10
+
+ * Minor bugfixes.
+
+ * Removed the "Beta" label. Pro users can help test out new features before they're released by joining the beta program: https://plus.google.com/communities/108365502089038835850
 
 v8.0.9 (Beta)
 
