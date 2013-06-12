@@ -5,6 +5,14 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.0
+
+ * This release adds a basic 1x1 circle widget. I plan to make it very configurable for Pro users. I also plan to add larger widget styles including the battery image and time-remaining estimate, etc.
+
+ * NOTE: For now, you MUST leave the app running for the widget to work. I plan to fix this very soon, so that you will be able to have just the widget without the notification if you like.
+
+ * Updated Dutch translations.
+
 v8.0.10
 
  * New option to select the algorithm for the time-remaining estimates. Choose from "Sensitive" (the old default), "Conservative" (the current default since v8.0.9), "Since Status Change", or "Long-term Average". Find this option under "Other Settings".
