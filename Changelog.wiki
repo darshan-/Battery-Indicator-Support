@@ -9,7 +9,7 @@ v8.1.1
 
  * The notification is now optional.  If you prefer to only use the app widget (or if you only like to check the app periodically and don't want the notification), you can now hide the notification from the main menu.
 
- * The app will no longer let you close the service if you have any widgets running. You need to restart your device in order for this to take effect if you have any pre-existing widgets from the previous release.
+ * The app will no longer let you close the service if you have any widgets running. (If you have any pre-existing widgets from the previous release, this won't take effect until the next device restart.)
 
 v8.1.0
 
