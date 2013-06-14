@@ -5,6 +5,12 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.1
+
+ * The notification is now optional.  If you prefer to only use the app widget (or if you only like to check the app periodically and don't want the notification), you can now hide the notification from the main menu.
+
+ * The app will no longer let you close the service if you have any widgets running. You need to restart your device in order for this to take effect if you have any pre-existing widgets from the previous release.
+
 v8.1.0
 
  * This release adds a basic 1x1 circle widget. I plan to make it very configurable for Pro users. I also plan to add larger widget styles including the battery image and time-remaining estimate, etc.
