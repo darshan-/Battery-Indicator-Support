@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.3
+
+ * Fixed missing string in Polish translation that caused crash when app run in Polish.
+
 v8.1.2
 
  * Added a new, larger widget with more information.
@@ -286,6 +290,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.1.3
+
+ * Fixed missing string in Polish translation that caused crash when app run in Polish.
 
 v8.1.2
 
