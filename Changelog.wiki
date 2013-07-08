@@ -5,6 +5,14 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.5
+
+ * Bugfix: The large widget would sometimes get out of sync.
+
+ * Updated German translation.
+
+ * Updated contact info.
+
 v8.1.4
 
  * Updated German translation.
@@ -294,6 +302,14 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.1.5
+
+ * Bugfix: Rare widget synchronization issue.
+
+ * Updated German translation.
+
+ * Updated contact info.
 
 v8.1.4
 
