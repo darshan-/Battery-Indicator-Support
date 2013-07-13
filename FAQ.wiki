@@ -167,14 +167,26 @@ Indicator.  See the previous two questions.
 
 == Can I have just the icon without the notification? / <br> Can I have just the notification without the icon? ==
 
-Unfortunately, that's not possible at this time.  In all current
+~~Unfortunately, that's not possible at this time.  In all current
 versions of Android, the notification icon and the actual notification
 (in the pull-down menu) are tied together. If you try to set a
 notification without an icon, the notification doesn't show up, and
 the only way to get an icon in the status bar is to set a
 notification.  If a future version of Android allows it, I will
 definitely add an option to allow people to customize things in this
-way.
+way.~~
+
+On newer devices (Jellybean / Android 4.1+), the Pro version allows
+you to hide the status bar icon while leaving the notification in the
+tray by setting the notification priority to "Minimum".
+
+You can also now hide _both_ the status bar icon _and_ notification
+_together_ in both the free and Pro versions be selecting "Hide
+notification" from the menu.  This is primarily intended for users who
+prefer to use the widget.
+
+There's still no way to have the status bar icon but _not_ the
+notification in the tray.
 
 == Can you make your app replace the stock battery icon? ==
 
@@ -223,7 +235,3 @@ turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
 
 `[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
-
-== I still have a question or a problem. ==
-
-You can [http://code.google.com/p/battery-indicator/wiki/AskAQuestionOrReportAProblem?tm=3 Ask a question or report a problem].
