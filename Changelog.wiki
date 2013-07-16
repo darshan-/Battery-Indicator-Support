@@ -5,6 +5,16 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.6
+
+ * Changed app launcher icon to better match the rest of app.
+
+ * Changed appearance of help screens to better match the rest of app.
+
+ * Updated main help page with new links; removed outdated or redundant information.
+
+ * Initial Arabic translation.
+
 v8.1.5
 
  * Bugfix: The large widget would sometimes get out of sync.
@@ -302,6 +312,16 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.1.6
+
+ * Changed app launcher icon to better match the rest of app.
+
+ * Changed appearance of help screens to better match the rest of app.
+
+ * Updated main help page with new links; removed outdated or redundant information.
+
+ * Initial Arabic translation.
 
 v8.1.5
 
