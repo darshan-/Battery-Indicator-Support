@@ -5,6 +5,12 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.7
+
+ * Added some lower temperature thresholds for high-temperature alarm, per user request.
+
+ * Extensive updates to Arabic translation, substantial updates to German and Hungarian translations, small update to Polish translation.
+
 v8.1.6
 
  * Changed app launcher icon to better match the rest of app.
@@ -312,6 +318,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.1.7
+
+ * Extensive updates to Arabic translation, substantial updates to German and Hungarian translations, small update to Polish translation.
 
 v8.1.6
 
