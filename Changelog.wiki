@@ -5,6 +5,10 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.9
+
+ * Fix for rare crash.
+
 v8.1.8
 
  * Updated widget appearance based on frequent user feedback.
