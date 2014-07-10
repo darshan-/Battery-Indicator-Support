@@ -5,9 +5,15 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.1.10
+
+ * Several fixes for rare crashes reported in Developer Console.
+
+ * Minor performance improvement when viewing logs.
+
 v8.1.9
 
- * Fix for rare crash.
+ * Fix for rare crash reported in Developer Console.
 
 v8.1.8
 
@@ -328,6 +334,10 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.1.10
+
+ * Fix for rare crash reported in Developer Console.
 
 v8.1.8
 
