@@ -5,6 +5,12 @@
 <wiki:toc max_depth="2" />
 == Pro Version ==
 
+v8.2.0
+
+ * Updated app for Android 5.0 Lollipop.
+
+ * Updated Turkish translations.
+
 v8.1.10
 
  * Several fixes for rare crashes reported in Developer Console.
@@ -334,6 +340,12 @@ v3.0.0
  * Color preview.
 
 == Free Version ==
+
+v8.2.0
+
+ * Updated app for Android 5.0 Lollipop.
+
+ * Updated Turkish translations.
 
 v8.1.10
 
