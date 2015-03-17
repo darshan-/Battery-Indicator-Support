@@ -133,13 +133,13 @@ update the icon to the current level, which may be a few percent away.
 The other thing that can cause this type of behavior, however, is
 using it in an unsupported software environment:
 
- * <b>Third-Party ROMs</b>
+<b>Third-Party ROMs</b>
 
 These often work perfectly fine with Battery Indicator, but they
 sometimes fail miserably when it comes time to restart background
 services.  They can also by overzealous about killing them off.
 
- * <b>"Task Killer" style apps</b>
+<b>"Task Killer" style apps</b>
 
 These apps cause way more problems than they solve and have a tendency
 totally mess up any apps that legitimately run background services, as
