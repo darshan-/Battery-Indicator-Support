@@ -1,9 +1,14 @@
-#summary Describes changes in both Pro and Free for each release since v3.0.0
-#sidebar sidebar
-<h1>Changelog</h1>
-<h2>Contents</h2>
-<wiki:toc max_depth="2" />
-== Pro Version ==
+# Changelog
+
+Describes changes in both Pro and Free for each release since v3.0.0
+
+## Contents
+
+* [Pro Version](#pro-version)
+* [Free Version](#free-version)
+
+<a name="pro-version">
+## Pro Version
 
 v8.2.0
 
@@ -339,7 +344,8 @@ v3.0.0
  * Option to show the charge as larger text (only in notification tray).
  * Color preview.
 
-== Free Version ==
+<a name="free-version">
+## Free Version
 
 v8.2.0
 
