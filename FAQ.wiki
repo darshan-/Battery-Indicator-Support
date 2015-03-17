@@ -1,5 +1,3 @@
-#summary Frequently Asked Questions
-#sidebar sidebar
 <h1>Frequently Asked Questions</h1>
 
 If you have a question or a problem, please look over the titles of
@@ -7,7 +5,6 @@ the questions here to see if it has already been addressed. The last
 question explains what to do if it has not.
 
 <h2>Contents</h2>
-<wiki:toc max_depth="2" />
 
 == I'm having a problem with purchasing, downloading, or installing the app. ==
 
@@ -15,13 +12,13 @@ If you are having problems with purchasing, downloading, or installing the app, 
 
 == What's new in the update? ==
 
-Please see the [http://code.google.com/p/battery-indicator/wiki/Changelog?tm=6 Changelog].
+Please see the <a href="https://github.com/darshan-/Battery-Indicator-Wiki/blob/master/Changelog.md">Changelog</a>.
 
 == I don't have access to the Android Market. Can I download the APK? ==
 
 I'm glad to finally have the APKs available for download from this
 site.  Please see
-[http://code.google.com/p/battery-indicator/wiki/PackageDownload?tm=2 Package Download / Donation Form]
+<a href="https://github.com/darshan-/Battery-Indicator-Wiki/blob/master/PackageDownload.wiki">PackageDownload</a>
 or just click on the "Downloads" tab at the top of this page.
 
 == Why does the app ask for the permissions that it does? ==
@@ -35,32 +32,32 @@ permissions and how it uses them, and of course by sharing the source
 code publicly, I hope to make it an easy decision to grant the
 permissions and install the app.
 
-*WRITE_EXTERNAL_STORAGE ("modify/delete SD card contents")*
+<b>WRITE_EXTERNAL_STORAGE ("modify/delete SD card contents")</b>
 
 This is so that the log viewer can export the logs to CSV on the SD
 card.  Nothing else is ever written to storage, so if you don't use
 the optional log feature, or if you never export the logs to CSV, then
 the app will never touch the SD card.
 
-*WAKE_LOCK ("prevent phone from sleeping")*
+<b>WAKE_LOCK ("prevent phone from sleeping")</b>
 
 This is necessary for the lock screen functionality to work properly.
 It won't be used at all if you don't have the app set to automatically
 disable and reenable the lock screen. If you do have that turned on,
 then the wake lock is released immediately after acquisition. It's
 just a work-around to make sure the the lock screen is reenabled
-properly; when I say immediately, I mean _immediately_: http://code.google.com/p/battery-indicator/source/browse/trunk/src/com/darshancomputing/BatteryIndicatorPro/BatteryIndicatorService.java?r=258#213
+properly; when I say immediately, I mean _immediately_: https://github.com/darshan-/Battery-Indicator-Pro/blob/74675a3af4db1d217c43cf5d5881691fe6d3e5c6/src/com/darshancomputing/BatteryIndicatorPro/BatteryInfoService.java#L763
 
-*RECEIVE_BOOT_COMPLETED ("automatically start at boot")*
+<b>RECEIVE_BOOT_COMPLETED ("automatically start at boot")</b>
 
 This is so the app can optionally start itself on device startup
 (which most users seem to want.)
 
-*DISABLE_KEYGUARD ("disable keylock")*
+<b>DISABLE_KEYGUARD ("disable keylock")</b>
 
 This is for the optional lock screen functionality.
 
-*VIBRATE ("control vibrator")*
+<b>VIBRATE ("control vibrator")</b>
 
 This if for the optional alarms, so that they can optionally vibrate
 when they are triggered.
@@ -97,26 +94,26 @@ perceptible effect on battery life.
 
 == Your app only displays the charge with a 10% resolution.  Please fix this. ==
 
-~~Battery Indicator displays exactly what the system reports to it.  The
-(original) *Motorola DROID*, the *Motorola Droid X*, the *Motorola
-Droid 2*, and the *Samsung Moment* are known to only report their
+<strike>Battery Indicator displays exactly what the system reports to it.  The
+(original) <b>Motorola DROID</b>, the <b>Motorola Droid X</b>, the <b>Motorola
+Droid 2</b>, and the <b>Samsung Moment</b> are known to only report their
 charge at 10% intervals.  This is dumb but not my fault.  I've heard
-from one user that the *Motorola i1* actually only reports at 100%,
+from one user that the <b>Motorola i1</b> actually only reports at 100%,
 65%, and 35%.  That's terrible, but again, there's nothing I can do
 about it if that's how Motorola designed their device.  If you have
 one of these crippled devices, and you find it bothersome, I think it
 might be helpful to let your carrier and/or device manufacturer know
 how you feel.  Motorola in particular is building a bad reputation in
 this regard, so it would be good for them to know that people care
-about the issue.~~
+about the issue.</strike>
 
-~~All other Android devices, as far as I know, report their charge at 1%
-intervals.  _If you have a device that fails to do so (other than those
+<strike>All other Android devices, as far as I know, report their charge at 1%
+intervals.  <i>If you have a device that fails to do so (other than those
 already mentioned in the previous paragraph), please let me know, and
-I'll add it to this list_.~~
+I'll add it to this list</i>.</strike>
 
-_*Update*_: Please see
-[http://code.google.com/p/battery-indicator/wiki/OnePercentHack?tm=6 OnePercentHack].
+<b><i>Update</i></b>: Please see
+<a href="https://github.com/darshan-/Battery-Indicator-Wiki/blob/master/OnePercentHack.wiki">OnePercentHack</a>.
 
 == Battery Indicator is inaccurate or jumps by several percent. ==
 
@@ -136,13 +133,13 @@ update the icon to the current level, which may be a few percent away.
 The other thing that can cause this type of behavior, however, is
 using it in an unsupported software environment:
 
- * *Third-Party ROMs*
+ * <b>Third-Party ROMs</b>
 
 These often work perfectly fine with Battery Indicator, but they
 sometimes fail miserably when it comes time to restart background
 services.  They can also by overzealous about killing them off.
 
- * *"Task Killer" style apps*
+ * <b>"Task Killer" style apps</b>
 
 These apps cause way more problems than they solve and have a tendency
 totally mess up any apps that legitimately run background services, as
@@ -167,21 +164,21 @@ Indicator.  See the previous two questions.
 
 == Can I have just the icon without the notification? / <br> Can I have just the notification without the icon? ==
 
-~~Unfortunately, that's not possible at this time.  In all current
+<strike>Unfortunately, that's not possible at this time.  In all current
 versions of Android, the notification icon and the actual notification
 (in the pull-down menu) are tied together. If you try to set a
 notification without an icon, the notification doesn't show up, and
 the only way to get an icon in the status bar is to set a
 notification.  If a future version of Android allows it, I will
 definitely add an option to allow people to customize things in this
-way.~~
+way.</strike>
 
 On newer devices (Jellybean / Android 4.1+), the Pro version allows
 you to hide the status bar icon while leaving the notification in the
 tray by setting the notification priority to "Minimum".
 
-You can also now hide _both_ the status bar icon _and_ notification
-_together_ in both the free and Pro versions be selecting "Hide
+You can also now hide <i>both</i> the status bar icon <i>and</i> notification
+<i>together</i> in both the free and Pro versions be selecting "Hide
 notification" from the menu.  This is primarily intended for users who
 prefer to use the widget.
 
@@ -222,7 +219,8 @@ on the other.
 == Please allow the app to be installed to SD card for Android 2.2+. ==
 
 I hear you.  However, Google is very clear that apps such as Battery
-Indicator *should not* allow this^1^.  If I did this, and you moved
+Indicator <a href="http://developer.android.com/guide/appendix/install-location.html#ShouldNot">
+<b>should not</b> allow this</a>.  If I did this, and you moved
 Battery Indicator to your SD card, then whenever you unmounted the
 card from your phone (by plugging your phone into your computer to
 copy files to/from your phone, for example), Battery Indicator would
@@ -233,5 +231,3 @@ mass storage device and/or that you don't mind this behavior, there's
 no doubt that enabling it would confuse many of my users and this in
 turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
-
-`[1]` http://developer.android.com/guide/appendix/install-location.html#ShouldNot
