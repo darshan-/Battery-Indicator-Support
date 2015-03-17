@@ -67,12 +67,11 @@ very large font.)
 
 Some folks may prefer the free version, since it's smaller and
 simpler.  Since not everyone has access to the Android Market, here it
-is:
-[http://battery-indicator.googlecode.com/files/BatteryIndicator-7.0.6.apk BatteryIndicator-7.0.6.apk]
+is: https://github.com/darshan-/Battery-Indicator-Free/releases
 
 And finally, the Pro version that most of you are probably interested
-in:
-[http://battery-indicator.googlecode.com/files/BatteryIndicatorPro-7.0.6.apk BatteryIndicatorPro-7.0.6.apk]
+in: https://github.com/darshan-/Battery-Indicator-Pro/releases
+
 
 You'll have to manually check back here from time to time to see if
 there's an update.  As always, the
