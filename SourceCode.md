@@ -2,7 +2,7 @@
 
 Both the free and the Pro version of BatteryBot Battery Indicator are
 open source (see LICENSE in the appropriate repository for full
-details.
+details).
 
 There are several repositories, all hosted on GitHub:
 
