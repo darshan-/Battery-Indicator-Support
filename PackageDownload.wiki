@@ -1,9 +1,6 @@
-#summary Download the APK / Support development
-#sidebar sidebarDownloads
 <h1>Package Download</h1>
 
 <h2>Contents</h2>
-<wiki:toc max_depth="2" />
 
 == Background / Explanation ==
 
@@ -17,13 +14,14 @@ It is definitely best to get the app through the Android Market if
 possible, but there are several situations where it might be useful to
 download it from here.  For example:
 
- * If you do not have access to the Android Market in your country or you are using a custom build of Android without the Android Market.
- * If the price I'm asking in the Android Market is more than you think is fair.
- * If you need more than 15 minutes to decide if the price I'm asking is worth it.
+* If you do not have access to the Android Market in your country or you are using a custom build of Android without the Android Market.
+* If the price I'm asking in the Android Market is more than you think is fair.
+* If you need more than 15 minutes to decide if the price I'm asking is worth it.
 
 Benefits of downloading from the Android Market rather than this site include:
- * Automatic updates.
- * You increase the number of downloads/installs and can rate and review, all of which help the ranking of the app.
+
+* Automatic updates.
+* You increase the number of downloads/installs and can rate and review, all of which help the ranking of the app.
 
 Therefore, even if you initially download the app from here to try it
 out, please consider purchasing it from the Market if you can.
