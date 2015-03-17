@@ -79,7 +79,7 @@ If you're technically oriented, the documentation for the core API
 that Battery Indicator uses is here:
 http://developer.android.com/reference/android/os/BatteryManager.html
 and the actual source code to the development version of the app is
-here: http://code.google.com/p/battery-indicator/source/browse/trunk .
+here: <a href="https://github.com/darshan-/Battery-Indicator-Pro">Pro repository</a>.
 
 == Will using Battery Indicator affect my battery life? ==
 
