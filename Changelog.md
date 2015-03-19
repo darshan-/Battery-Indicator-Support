@@ -1,6 +1,7 @@
-# Changelog
+# BatteryBot Changelog
 
-Describes changes in both Pro and Free for each release since v3.0.0
+Describes changes in both Pro and Free versions of BatteryBot Battery
+Indicator for each release since v3.0.0
 
 ## Contents
 
