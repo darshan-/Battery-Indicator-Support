@@ -11,6 +11,10 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.2.2
+
+ * Added Japanese translations
+
 v8.2.1
 
  * Updated notifications to be visible on Lollipop (Android 5.0+) secure lockscreens.
@@ -351,6 +355,10 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v8.2.2
+
+ * Added Japanese translations
 
 v8.2.1
 
