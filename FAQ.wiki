@@ -14,12 +14,11 @@ If you are having problems with purchasing, downloading, or installing the app, 
 
 Please see the <a href="https://github.com/darshan-/Battery-Indicator-Wiki/blob/master/Changelog.md">Changelog</a>.
 
-== I don't have access to the Android Market. Can I download the APK? ==
+== I don't have access to the Google Play Store. Can I download the APK? ==
 
 I'm glad to finally have the APKs available for download from this
 site.  Please see
-<a href="https://github.com/darshan-/Battery-Indicator-Wiki/blob/master/PackageDownload.md">PackageDownload</a>
-or just click on the "Downloads" tab at the top of this page.
+<a href="https://github.com/darshan-/Battery-Indicator-Wiki/blob/master/PackageDownload.md">Package Download</a>.
 
 == Why does the app ask for the permissions that it does? ==
 
