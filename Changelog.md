@@ -13,7 +13,8 @@ Indicator for each release since v3.0.0
 
 v8.2.3
 
- * Fixed user-reported bug: App would crash if battery status changed while scrolling through history.
+ * Fixed user-reported bug: App would crash if battery status changed while scrolling through history
+ * Fixed rare Android-reported bug involving history menu
  * Updated Japanese translations
 
 v8.2.2
