@@ -230,3 +230,67 @@ mass storage device and/or that you don't mind this behavior, there's
 no doubt that enabling it would confuse many of my users and this in
 turn would cause a huge headache for me.  Battery Indicator simply
 isn't one of the apps where this should be enabled.
+
+== Why does the Classic icon set display only in white on Android 5.0+ (Lollipop and later)? ==
+
+Beginning in Android 5.0 (Lollipop), the icons are <a
+href="http://developer.android.com/design/patterns/notifications.html">now
+displayed as masks</a>.  What this means is that any pixel that isn't
+transparent in the icon shows up as white in the notification.  The
+result was that the Classic icon set showed as a solid white battery
+with no readable numbers.
+
+Beginning with BatteryBot 8.2.4, the Classic icon set accounts for
+this so that it shows up as a white battery outline with a white
+number when running on these versions of Android.
+
+== But other application XYZ still has icons that show up in color on Android 5.0... ==
+
+There <i>is</i> a workaround to get color to still show up on some
+devices.  If you tell Android that your application is designed for an
+older version of Android, you can still get colored notification icons
+(on <i>some</i> devices).  However, if an app targets an older version
+of Android like this, the app cannot use any of the new features of
+newer Android versions.  That might not sound like that big of a deal,
+but another big change happened with Android 5.0 that requires
+BatteryBot to target current Android.  Any users using a secure lock
+screen (using a PIN, a pattern, a password, etc.) would have the
+BatteryBot notification visible but blocked out on their lock screen,
+and the notification would freeze.  This is because Android assumes
+that notification content is private by default.  The only way to tell
+Android that the notification content is okay to show on secure lock
+screens is to target android 5.0+ and then use the new functionality
+to indicate this fact.
+
+The end result is that on Android 5.0+, BatteryBot can have
+<i>either</i> working notifications on secure lock screens <i>or</i>
+potentially colored icons, but not both.  This is unfortunate, but
+given this scenario, I am confident that I made the right choice by
+making the notification work on secure lock screens and updating the
+icons to be only white and transparent as required by Android.
+
+== Why doesn't the current (mA) show up by default / why doesn't it work on my device? ==
+
+The Android API does not provide any means of obtaining information
+about the current (mA) to/from the battery.  However, there is a hack
+available which <i>on many but not all devices</i> can potentially
+read this information from the system at a low level.  This is 100% a
+hack and is not guaranteed to work.  On some devices it doesn't work
+at all, and so the option to enable it is disabled.  On many other
+devices, the hack appears to the app to work, except the value doesn't
+make sense and/or doesn't ever change.  Users with these devices
+should disable the hack after determining that this is the case.
+
+That is why it doesn't work on many devices, and that is part of why
+it is disabled by default.  The other reason is that while the hack is
+not particularly expensive, it isn't completely free.  Since the hack
+doesn't work properly on many devices, and since many users have no
+interest in the mA value, combined with my determination to keep
+BatteryBot an extremely lightweight application, the hack is off by
+default.  If it works on your device and you find the value useful,
+feel free to turn it on and leave it on.
+
+Because of these complications, because it is something only advanced
+users should be interested in, and because it requires several
+configuration settings to be done properly, it is only available in
+the Pro version of the app.
