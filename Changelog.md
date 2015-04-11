@@ -11,6 +11,15 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.3.0
+
+ * Fixed the Classic icon set on Android 5.0+.  It will now display as
+   only white and transparent, as required by Android.  Please see the
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/FAQ.wiki">FAQ</a> for more info.
+ * Added frequently-requested support for milliamp information on
+  supported devices.  Please see the
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/FAQ.wiki">FAQ</a> for more info.
+
 v8.2.3
 
  * Fixed user-reported bug: App would crash if battery status changed while scrolling through history
@@ -361,6 +370,10 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+ * Fixed the Classic icon set on Android 5.0+.  It will now display as
+   only white and transparent, as required by Android.  Please see the
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/FAQ.wiki">FAQ</a> for more info.
 
 v8.2.3
 

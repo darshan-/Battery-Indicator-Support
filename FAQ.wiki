@@ -239,7 +239,7 @@ transparent in the icon shows up as white in the notification.  The
 result was that the Classic icon set showed as a solid white battery
 with no readable numbers.
 
-Beginning with BatteryBot 8.2.4, the Classic icon set accounts for
+Beginning with BatteryBot 8.3.0, the Classic icon set accounts for
 this so that it shows up as a white battery outline with a white
 number when running on these versions of Android.
 
