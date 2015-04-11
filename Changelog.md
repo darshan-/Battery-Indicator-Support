@@ -15,10 +15,10 @@ v8.3.0
 
  * Fixed the Classic icon set on Android 5.0+.  It will now display as
    only white and transparent, as required by Android.  Please see the
-   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki">FAQ</a> for more info.
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki#Why_does_the_Classic_icon_set_display_only_in_white_on_Android_50_Lollipop_and_later">FAQ</a> for more info.
  * Added frequently-requested support for milliamp information on
   supported devices.  Please see the
-   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki">FAQ</a> for more info.
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki#why-doesnt-the-current-ma-show-up-by-default--why-doesnt-it-work-on-my-device">FAQ</a> for more info.
 
 v8.2.3
 
@@ -371,9 +371,11 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
- * Fixed the Classic icon set on Android 5.0+.  It will now display as
+v8.3.0
+
+* Fixed the Classic icon set on Android 5.0+.  It will now display as
    only white and transparent, as required by Android.  Please see the
-   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki">FAQ</a> for more info.
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki#Why_does_the_Classic_icon_set_display_only_in_white_on_Android_50_Lollipop_and_later">FAQ</a> for more info.
 
 v8.2.3
 
