@@ -15,10 +15,10 @@ v8.3.0
 
  * Fixed the Classic icon set on Android 5.0+.  It will now display as
    only white and transparent, as required by Android.  Please see the
-   <a href="https://github.com/darshan-/Battery-Indicator-Support/FAQ.wiki">FAQ</a> for more info.
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki">FAQ</a> for more info.
  * Added frequently-requested support for milliamp information on
   supported devices.  Please see the
-   <a href="https://github.com/darshan-/Battery-Indicator-Support/FAQ.wiki">FAQ</a> for more info.
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki">FAQ</a> for more info.
 
 v8.2.3
 
@@ -373,7 +373,7 @@ v3.0.0
 
  * Fixed the Classic icon set on Android 5.0+.  It will now display as
    only white and transparent, as required by Android.  Please see the
-   <a href="https://github.com/darshan-/Battery-Indicator-Support/FAQ.wiki">FAQ</a> for more info.
+   <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki">FAQ</a> for more info.
 
 v8.2.3
 
