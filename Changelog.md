@@ -11,6 +11,12 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.3.1
+
+ * Added an option on Lollipop devices using the Classic icon set to
+   force the old color mode, since users reported that some devices on
+   Lollipop do in fact support colored notification icons.
+
 v8.3.0
 
  * Fixed the Classic icon set on Android 5.0+.  It will now display as
@@ -371,9 +377,15 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
+v8.3.1
+
+ * Added an option on Lollipop devices using the Classic icon set to
+   force the old color mode, since users reported that some devices on
+   Lollipop do in fact support colored notification icons.
+
 v8.3.0
 
-* Fixed the Classic icon set on Android 5.0+.  It will now display as
+ * Fixed the Classic icon set on Android 5.0+.  It will now display as
    only white and transparent, as required by Android.  Please see the
    <a href="https://github.com/darshan-/Battery-Indicator-Support/blob/master/FAQ.wiki#Why_does_the_Classic_icon_set_display_only_in_white_on_Android_50_Lollipop_and_later">FAQ</a> for more info.
 
