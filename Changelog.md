@@ -14,6 +14,7 @@ Indicator for each release since v3.0.0
 v8.3.2
 
  * Modern look for alarm overview page
+ * Modern alarm notification icon on modern devices
  * Show Settings and Help menu items on ActionBar even on phones
  * Added missing menu hint on two settings pages for pre-ICS devices
 
