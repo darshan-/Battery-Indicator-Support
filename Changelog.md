@@ -11,6 +11,12 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.3.2
+
+ * Modern look for alarm overview page
+ * Show Settings and Help menu items on ActionBar even on phones
+ * Added missing menu hint on two settings pages for pre-ICS devices
+
 v8.3.1
 
  * Added an option on Lollipop devices using the Classic icon set to
@@ -376,6 +382,10 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v8.3.2
+
+ * Show Settings and Help menu items on ActionBar even on phones
 
 v8.3.1
 
