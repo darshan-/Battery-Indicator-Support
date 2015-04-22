@@ -11,6 +11,12 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.3.3
+
+ * Better handling of Android's phantom-widget bug: the Service is now
+ always closeable, and widgets appropriately reflect when they are
+ disconnected from the Service.
+
 v8.3.2
 
  * Modern look for alarm overview page
@@ -384,6 +390,12 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v8.3.3
+
+ * Better handling of Android's phantom-widget bug: the Service is now
+ always closeable, and widgets appropriately reflect when they are
+ disconnected from the Service.
 
 v8.3.2
 
