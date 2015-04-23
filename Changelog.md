@@ -17,6 +17,7 @@ v8.3.3
  always closeable, and widgets appropriately reflect when they are
  disconnected from the Service.
  * Show Filter and Reverse Order menu items on ActionBar (in History) even on phones.
+ * Enable fast scrolling in History
 
 v8.3.2
 
