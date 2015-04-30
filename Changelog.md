@@ -11,6 +11,15 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.3.4
+ * Better experience on most devices when first upgrading to Lollipop
+   by setting Use System Layout to true.  You can turn it back to
+   false if you prefer.
+ * Fix crash on older devices when closing Service while large desktop widget present.
+ * Fix crash when rotating screen while dialog present on History screen
+ * Apply log filters immediately for consistency and correctness
+ * Significantly updated Russian translations
+
 v8.3.3
 
  * Better handling of Android's phantom-widget bug: the Service is now
@@ -392,6 +401,12 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v8.3.4
+ * Better experience on most devices when first upgrading to Lollipop
+   by setting Use System Layout to true.  You can turn it back to
+   false if you prefer.
+ * Significantly updated Russian translations
 
 v8.3.3
 
