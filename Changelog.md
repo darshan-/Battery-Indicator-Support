@@ -14,7 +14,7 @@ Indicator for each release since v3.0.0
 v8.3.5
  * Added link to Google Plus Page: https://www.google.com/+BatterybotInfoAndroid (follow
    for announcements and polls)
- * Try not to crash if storage is full
+ * Try not to crash if storage is full (for example, when logging an event or adding an alarm)
 
 v8.3.4
  * Better experience on most devices when first upgrading to Lollipop
