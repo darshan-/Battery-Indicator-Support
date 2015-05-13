@@ -11,6 +11,11 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v8.3.5
+ * Added link to Google Plus Page: https://www.google.com/+BatterybotInfoAndroid (follow
+   for announcements and polls)
+ * Try not to crash if storage is full
+
 v8.3.4
  * Better experience on most devices when first upgrading to Lollipop
    by setting Use System Layout to true.  You can turn it back to
@@ -401,6 +406,10 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v8.3.5
+ * Added link to Google Plus Page: https://www.google.com/+BatterybotInfoAndroid (follow
+   for announcements and polls)
 
 v8.3.4
  * Better experience on most devices when first upgrading to Lollipop
