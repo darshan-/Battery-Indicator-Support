@@ -38,23 +38,10 @@ card.  Nothing else is ever written to storage, so if you don't use
 the optional log feature, or if you never export the logs to CSV, then
 the app will never touch the SD card.
 
-<b>WAKE_LOCK ("prevent phone from sleeping")</b>
-
-This is necessary for the lock screen functionality to work properly.
-It won't be used at all if you don't have the app set to automatically
-disable and reenable the lock screen. If you do have that turned on,
-then the wake lock is released immediately after acquisition. It's
-just a work-around to make sure the the lock screen is reenabled
-properly; when I say immediately, I mean _immediately_: https://github.com/darshan-/Battery-Indicator-Pro/blob/74675a3af4db1d217c43cf5d5881691fe6d3e5c6/src/com/darshancomputing/BatteryIndicatorPro/BatteryInfoService.java#L763
-
 <b>RECEIVE_BOOT_COMPLETED ("automatically start at boot")</b>
 
 This is so the app can optionally start itself on device startup
 (which most users seem to want.)
-
-<b>DISABLE_KEYGUARD ("disable keylock")</b>
-
-This is for the optional lock screen functionality.
 
 <b>VIBRATE ("control vibrator")</b>
 
