@@ -11,6 +11,16 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v9.0.0
+
+* Redesigned main screen to look better, be easier to find the
+  information you're looking for, and provide more information.
+
+NOTE: As part of this redesign, the disable-lockscreen functionality
+has been moved to a new app called <a
+href="https://play.google.com/store/apps/details?id=com.darshancomputing.alockblock">A
+Lock Block</a>.
+
 v8.3.5
  * Added link to Google Plus Page: https://www.google.com/+BatterybotInfoAndroid (follow
    for announcements and polls)
@@ -406,6 +416,11 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v9.0.0
+
+* Redesigned main screen to look better, be easier to find the
+  information you're looking for, and provide more information.
 
 v8.3.5
  * Added link to Google Plus Page: https://www.google.com/+BatterybotInfoAndroid (follow
