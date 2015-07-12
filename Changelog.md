@@ -11,6 +11,17 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v9.0.1
+
+* Fix bug where app wouldn't always close when Close selected from menu (e.g. after rotation).
+* Fix bug where 1x1 circle widget showed up as 2x2 on some launchers.
+* Make circle widget the same size as a launcher icon, even when the desktop grid gives
+  it more space than that.
+* Removed shadow from below battery graphic in main screen, which was not noticeable on most devices
+  but looked ugly where it was noticeable.
+* Added xxxhdpi launcher icon.
+* Updated traditional Chinese translations.
+
 v9.0.0
 
 * Redesigned main screen to look better, be easier to find the
@@ -418,6 +429,18 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v9.0.1
+
+* Fix bug where app wouldn't always close when Close selected from menu (e.g. after rotation).
+* Fix bug where 1x1 circle widget showed up as 2x2 on some launchers.
+* Make circle widget the same size as a launcher icon, even when the desktop grid gives
+  it more space than that.
+* Removed shadow from below battery graphic in main screen, which was not noticeable on most devices
+  but looked ugly where it was noticeable.
+* Added xxxhdpi launcher icon.
+* Updated traditional Chinese translations.
+* Removed shadow from below battery in launcher icon.
 
 v9.0.0
 
