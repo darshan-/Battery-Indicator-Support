@@ -20,6 +20,8 @@ v9.0.1
 * Removed shadow from below battery graphic in main screen, which was not noticeable on most devices
   but looked ugly where it was noticeable.
 * Added xxxhdpi launcher icon.
+* Don't show redundant 'Fully Charged' in the prediction (time remaining) area of the main screen,
+  but rather indicate with an mdash that there is currently no prediction.
 * Updated traditional Chinese translations.
 
 v9.0.0
@@ -439,6 +441,8 @@ v9.0.1
 * Removed shadow from below battery graphic in main screen, which was not noticeable on most devices
   but looked ugly where it was noticeable.
 * Added xxxhdpi launcher icon.
+* Don't show redundant 'Fully Charged' in the prediction (time remaining) area of the main screen,
+  but rather indicate with an mdash that there is currently no prediction.
 * Updated traditional Chinese translations.
 * Removed shadow from below battery in launcher icon.
 
