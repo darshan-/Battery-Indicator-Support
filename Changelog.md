@@ -11,6 +11,22 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v10.0.0
+ * Support Android 6.0+ (Marshmallow), including new permission model (ask as needed rather
+   than at install time)
+ * Support Android 7.0+ (Nougat), including split-screen view
+ * Many significant improvements in performance, stability, and memory efficiency
+ * Convert AlarmsActivity to a Fragment and place to right of Current Info
+ * Notification Wizard: makes it easier to adjust how notification is shown
+ * Option for another method to determine mA current
+ * Updated Japanese and Chinese translations
+ * Include boot event in logs
+ * Add privacy policy
+ * Use Fahrenheit by default for en-US and es-US locales
+ * Check for notifications being blocked, warn user and link to settings to unblock
+ * Remove finish_after_battery_use option which hasn't made sense in years
+ * Many minor fixes
+
 v9.0.1
 
 * Fix bug where app wouldn't always close when Close selected from menu (e.g. after rotation).
