@@ -448,6 +448,18 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
+v10.0.0
+ * Support Android 6.0+ (Marshmallow) and Android 7.0+ (Nougat), including split-screen view
+ * Many significant improvements in performance, stability, and memory efficiency
+ * Notification Wizard: makes it easier to adjust how notification is shown, adds feature
+   previously only for Pro users to hide task bar icon but keep notification (requires Android 4.1+)
+ * Updated Japanese and Chinese translations
+ * Add privacy policy
+ * Use Fahrenheit by default for en-US and es-US locales
+ * Check for notifications being blocked, warn user and link to settings to unblock
+ * Remove use_system_layout option; always use system layout now
+ * Many minor fixes
+
 v9.0.1
 
 * Fix bug where app wouldn't always close when Close selected from menu (e.g. after rotation).
