@@ -11,6 +11,11 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v10.0.1
+
+ * Bugfix: Remove timestamp from main notification
+ * Bugfix: Vibrate alarms properly (please email me if any new issues arise)
+
 v10.0.0
  * Support Android 6.0+ (Marshmallow), including new permission model (ask as needed rather
    than at install time)
@@ -447,6 +452,10 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v10.0.1
+
+ * Bugfix: Remove timestamp from main notification
 
 v10.0.0
  * Support Android 6.0+ (Marshmallow) and Android 7.0+ (Nougat), including split-screen view
