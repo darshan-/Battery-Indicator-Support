@@ -11,13 +11,22 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v10.0.3
+
+* Fix (I think) rare crash introduced in last release.
+
+v10.0.2
+
+* Performance and stability improvements.
+
 v10.0.1
 
  * Bugfix: Remove timestamp from main notification
  * Bugfix: Vibrate alarms properly (please email me if any new issues arise)
 
 v10.0.0
- * Support Android 6.0+ (Marshmallow), including new permission model (ask as needed rather
+
+* Support Android 6.0+ (Marshmallow), including new permission model (ask as needed rather
    than at install time)
  * Support Android 7.0+ (Nougat), including split-screen view
  * Many significant improvements in performance, stability, and memory efficiency
