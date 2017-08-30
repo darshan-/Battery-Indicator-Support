@@ -11,6 +11,13 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v10.0.4
+
+* I'm so sorry for the frequent releases this week, folks.  I'm fixing
+  my bugfix again.  This is an issue that only affects a small
+  minority of users, but it's important to get it right.  I really
+  think I've got it this time.
+
 v10.0.3
 
 * Fix (I think) rare crash introduced in last release.
