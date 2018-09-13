@@ -477,6 +477,13 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
+v11.0.0
+
+ * Support for Android 8.0, 8.1, and 9.0 (Oreo and Pie), particularly Notification Channels.
+ * Several bugfixes, mostly minor.
+ * Efficiency improvements.
+ * Initial Hebrew and Serbian translations.
+
 v10.0.1
 
  * Bugfix: Remove timestamp from main notification
