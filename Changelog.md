@@ -11,20 +11,28 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v11.0.0
+
+ * Support for Android 8.0, 8.1, and 9.0 (Oreo and Pie), particularly Notification Channels.
+ * Several bugfixes, mostly minor.
+ * Efficiency improvements.
+ * Initial Hebrew and Serbian translations.
+ * New "Temperature drops below" alarm type requested by user as GitHub issue #4.
+
 v10.0.4
 
-* I'm so sorry for the frequent releases this week, folks.  I'm fixing
-  my bugfix again.  This is an issue that only affects a small
-  minority of users, but it's important to get it right.  I really
-  think I've got it this time.
+ * I'm so sorry for the frequent releases this week, folks.  I'm fixing
+   my bugfix again.  This is an issue that only affects a small
+   minority of users, but it's important to get it right.  I really
+   think I've got it this time.
 
 v10.0.3
 
-* Fix (I think) rare crash introduced in last release.
+ * Fix (I think) rare crash introduced in last release.
 
 v10.0.2
 
-* Performance and stability improvements.
+ * Performance and stability improvements.
 
 v10.0.1
 
