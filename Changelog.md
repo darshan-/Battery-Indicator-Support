@@ -484,6 +484,12 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
+v11.0.1
+
+ * Brought classic color mode back, since some devices still support it on current versions of Android (Samsung seems to, at least).
+ * Raised default priority for main notification channel (brings icon back to status bar by default) on Pre-9.0 versions of Android.
+ * Initial Hindi and Farsi translations.
+
 v11.0.0
 
  * Support for Android 8.0, 8.1, and 9.0 (Oreo and Pie), particularly Notification Channels.
