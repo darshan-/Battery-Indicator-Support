@@ -11,6 +11,13 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v11.0.1
+
+ * Brought notification icon colors back, since some devices still support them on current versions of Android (Samsung seems to, at least).
+ * Raised default priority for main notification channel (brings icon back to status bar by default) on Pre-9.0 versions of Android.
+ * One notification channel per alarm type, for more granular control of alarm settings.
+ * Initial Hindi and Farsi translations.
+
 v11.0.0
 
  * Support for Android 8.0, 8.1, and 9.0 (Oreo and Pie), particularly Notification Channels.
