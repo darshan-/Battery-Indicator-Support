@@ -11,11 +11,17 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v11.0.2
+
+ * Fixed problem with widget-only mode (no notification) on 8.0+ devices (XX%).
+ * Added multiplier option to current hack.  (Can swap negative/positive, and on some devices can fix 0 mA.)
+ * Some fixes and improvements to AlarmEditActivity around Notification Channels.
+
 v11.0.1
 
  * Brought notification icon colors back, since some devices still support them on current versions of Android (Samsung seems to, at least).
- * Raised default priority for main notification channel (brings icon back to status bar by default) on Pre-9.0 versions of Android.
- * One notification channel per alarm type, for more granular control of alarm settings.
+ * Raised default priority for main Notification Channel (brings icon back to status bar by default) on Pre-9.0 versions of Android.
+ * One Notification Channel per alarm type, for more granular control of alarm settings.
  * Initial Hindi and Farsi translations.
 
 v11.0.0
@@ -484,10 +490,14 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
+v11.0.2
+
+ * Fixed problem with widget-only mode (no notification) on 8.0+ devices (XX%).
+
 v11.0.1
 
  * Brought classic color mode back, since some devices still support it on current versions of Android (Samsung seems to, at least).
- * Raised default priority for main notification channel (brings icon back to status bar by default) on Pre-9.0 versions of Android.
+ * Raised default priority for main Notification Channel (brings icon back to status bar by default) on Pre-9.0 versions of Android.
  * Initial Hindi and Farsi translations.
 
 v11.0.0
