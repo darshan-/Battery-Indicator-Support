@@ -11,6 +11,12 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v11.0.3
+
+ * Disabled notification badge by default for main channel.
+ * Updated build tools.
+ * Updated target audience.
+
 v11.0.2
 
  * Fixed problem with widget-only mode (no notification) on 8.0+ devices (XX%).
@@ -489,6 +495,12 @@ v3.0.0
 
 <a name="free-version">
 ## Free Version
+
+v11.0.3
+
+ * Disabled notification badge by default for main channel.
+ * Updated build tools.
+ * Updated target audience.
 
 v11.0.2
 
