@@ -11,6 +11,17 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v11.0.4
+
+ * Made time diffs in logs more human friendly.
+ * Added option to show seconds in timestamps in logs.
+ * Not Charging no longer treated as Unknown in logs.
+ * Changed how CSV file is exported to be compatible with Android 11. Allows user to select save location, removal of the WRITE_EXTERNAL_STORAGE permission.
+ * Modified layout and sizing of elements on main screen: more flexible and better supports modern tall screens.
+ * Updated build tools, support libraries.
+ * Target/compile for API level 30.
+ * Various clean up, reduction of APK file size.
+
 v11.0.3
 
  * Disabled notification badge by default for main channel.
