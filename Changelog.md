@@ -18,7 +18,7 @@ v12.0.0
  * Check for battery optimizations, and prompt user to disable them if battery is optimized.
  * Remove old cruft that is rarely if ever used and just doesn't work very well on modern devices.
  * Bug fixes.
- * Updated build tools and support libraries to current versions.
+ * Update build tools and support libraries to current versions.
  * Target/compile for API level 31 (Android 12).
 
 v11.0.4
