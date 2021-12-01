@@ -11,6 +11,16 @@ Indicator for each release since v3.0.0
 <a name="pro-version">
 ## Pro Version
 
+v12.0.0
+
+ * Fairly significant redesign to fit in much better on modern Android.
+ * Support day/night modes.
+ * Check for battery optimizations, and prompt user to disable them if battery is optimized.
+ * Remove old cruft that is rarely if ever used and just doesn't work very well on modern devices.
+ * Bug fixes.
+ * Updated build tools and support libraries to current versions.
+ * Target/compile for API level 31 (Android 12).
+
 v11.0.4
 
  * Made time diffs in logs more human friendly.
@@ -19,7 +29,7 @@ v11.0.4
  * Changed how CSV file is exported to be compatible with Android 11. Allows user to select save location, removal of the WRITE_EXTERNAL_STORAGE permission.
  * Modified layout and sizing of elements on main screen: more flexible and better supports modern tall screens.
  * Updated build tools, support libraries.
- * Target/compile for API level 30.
+ * Target/compile for API level 30 (Android 11).
  * Various clean up, reduction of APK file size.
 
 v11.0.3
