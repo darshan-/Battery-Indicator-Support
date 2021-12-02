@@ -517,6 +517,24 @@ v3.0.0
 <a name="free-version">
 ## Free Version
 
+
+v12.0.0
+
+ * Fairly significant redesign to fit in much better on modern Android.
+ * Support day/night modes.
+ * Check for battery optimizations, and prompt user to disable them if battery is optimized.
+ * Bug fixes.
+ * Update build tools and support libraries to current versions.
+ * Target/compile for API level 31 (Android 12).
+
+
+v11.0.4
+
+ * Modified layout and sizing of elements on main screen: more flexible and better supports modern tall screens.
+ * Updated build tools, support libraries.
+ * Target/compile for API level 30 (Android 11).
+ * Various clean up, reduction of APK file size.
+
 v11.0.3
 
  * Disabled notification badge by default for main channel.
